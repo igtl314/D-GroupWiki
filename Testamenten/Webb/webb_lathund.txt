@@ -1,0 +1,114 @@
+====== Webb Lathund ======
+//Senast uppdaterad 2014-04-28//
+
+===== Inledning =====
+Detta dokument är tänkt som en komplettering till alla Webb-testamenten. Detta bör uppdateras om ändringar görs, så att all info finns samlad på ett ställe.
+
+===== Förkunskaper =====
+Nedan listas de förkunskaper som du bör ha innan du går på ditt år som D-Group webb:
+
+===Absolut jätte nödvändigt===
+  * Hög kunskap inom MySQL.
+ //I webbgränssnittet finns mycket funktionalitet, men inte allt. Vissa saker kommer behöva ändras direkt i databaserna, och ibland behöva ändras väldigt snabbt. Tråkigt om just detta går fel!//
+  * Kunskap inom PHP.
+ //Hela systemet är byggt i PHP. Ska du ändra eller lägga till funktionalitet är det med hjälp av PHP du gör det. Att kunna programmera i andra språk hjälper absolut till vid inlärning av PHP.//
+  * Kunskap inom HTML och CSS
+ //GRUNDEN till allt inom webb. Alltid kul med en söt hemsida!//
+
+===Bra att kunna innan===
+  * Bildredigering
+ //Alltid bra att kunna vara lite kreativ/estetisk av sig. Du har självklart hjälp av trykkare också.//
+  * UNIX
+ //Servern ligger på ett UNIX-system. Att vara hemma i UNIX redan innan är alltid positivt.//
+  * JavaScript
+//En del funktionalitet är förfinat med JavaScript. Inget helt nödvändingt att kunna//
+  * CodeIgniter
+ //Ett PHP-ramverk som ligger som ligger till grund för d-group.se//
+
+
+===== Servern =====
+För tillfället används en server ordnad av Christian "BC" Svensson i utbyte mot DÖMD-biljetter. Han jobbar för Google i Irland.
+Detta är en Google Cloud server som kör Debian (Linux). BC har varit riktigt snäll och även fixat ett backup system åt oss.
+
+IP: 23.251.129.132
+Backup: gsutil cp min_fil.tar gs:%%//%%d-group/ 
+
+
+==BC kontakt==
+Facebook (bästa alternativet): [[https://www.facebook.com/ChristianSvensson.bluecmd]]
+Telefon (enbart i ABSOLUT kris): +353 84 377 8336 
+
+För inloggning på servern krävs SSH.
+
+Uppdatering sker genom: sudo apt-get update && sudo apt-get upgrade
+
+
+===== Sidor =====
+Följande är de viktiga sidor vi har:
+  * d-group.se
+//Det vanliga människor ser.//
+  * admin.d-group.se (klagg.d-group.se)
+//Administrationsverktygen för d-group.se, samt andra fina saker. Klagg.d-group.se är den officiella för andra festerier.//
+  * wiki.d-group.se
+//Groupie-only sida. Här antecknas saker som skall finnas kvar ett bra tag och är viktiga för D-Group.//
+  * tentakravallen.se
+//Hemsida för tentakravallen. **PROBLEM**: domänen ägs av KrogVet, som D-Group och Bi6 13/14 kastade ut från tentakravallen. Överför domänen till D-Group!//
+  * domd.nu (dömd.nu)
+//Hemsida för DÖMD. Tagga DÖMD!//
+
+Det finns även andra sidor som inte är lika viktiga. Kan vara läge att städa lite. Noterbara är dock:
+  * development.d-group.se
+//Har använts för utveckling av d-group.se//
+  * devadmin.d-group.se
+//Har använts för utveckling av admin.d-group.se//
+
+
+===== Mappar =====
+Dessa mappar bör du ha koll på vad de innehåller:
+  * /etc/apache2/sites-available
+//Konfigurationsfiler till de sidor som finns//
+  * /etc/apache2/sites-enabled
+//Mjuka länkar till de i sites-available för de sidor som är aktiverade (kan visas)//
+  * /var/www
+//www-roten. Här ligger all kod för sidorna. Mer om detta senare.//
+  * /var/protected-files
+//Här finns alla filer till wiki:n//
+
+
+===== Verktyg =====
+== Textredigerare ==
+  * emacs
+//Avancerad texteditor som körs direkt på servern.//
+  * nano
+//Lättare texteditor som körs direkt på servern.//
+  * vi
+//Texteditor som körs direkt på servern.//
+  * anteckningar
+//Windows mest basic program. Skriv hemma och ladda upp.//
+  * notepad++
+//Mer rekomenderad version av anteckningar. Skriv hemma och ladda upp.//
+
+== Windows ==
+  * Putty
+//SSH in på servern//
+  * WinSCP
+//Föra över filer till servern//
+  * FileZilla
+//FTP program som klarar ssh-protokoll (kolla upp putty-programmet pageant)//
+  * XAMPP
+//För att köra lokal server vid testning.//
+
+== Linux ==
+  * ssh
+//SSH in på servern//
+  * scp
+//Föra över filer till servern//
+  * apache2
+//För att köra lokal server vid testning.// 
+
+== Bildredigering ==
+  * GIMP
+  * Adobe PhotoShop
+  * Paint++
+//PhotoShop rekommenderas, men är inte gratis. *hint*//
+

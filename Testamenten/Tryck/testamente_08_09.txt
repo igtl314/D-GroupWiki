@@ -1,0 +1,243 @@
+==== Testamente ====
+
+=== Utfärdat av D-Group Trykk 08/09 ===
+
+
+{{:0809.png?200|}}
+
+Jonas Bergström
+Emil Fridell
+Emil Olofsson
+
+==Innehåll==
+
+
+  * 	Inledning & Syfte
+  * 	Tabeller
+  * 	Arbetsmetod
+  * 	Att tänka på vid beställning
+  * 	Lämna in för tryck
+  * 	Lista på olika företag
+  * 	DöMD
+  * 	Tips & Trikks
+  * 	Epilog
+
+
+
+==Inledning & Syfte==
+
+
+När du läser detta betyder det att D-Group 08/09 har dragit sig tillbaka för att njuta av sommarens och frihetens ljuvlighet. Här efterlämnar vi nu ett testamente till er nya trykkare, i hopp om att ni med hjälp av detta utför ett minst lika bra jobb som oss i trykk 08/09.
+
+Anledningen till att vi överlämnar detta testamente till er är att ni ska slippa researcha samma saker som vi gjort, och på så vis undkomma det där fenomenet ”att uppfinna hjulet på nytt”. Vi beskriver även vilka lärdomar vi har tagit, och vad ni bör tänka på, så ni slipper utstå förseningar etc. på grund av samma misstag som vi redan begått.
+
+
+
+==Tabeller==
+
+
+Fullständiga tabeller över vad som tryckts under året återfinns som bilaga till detta dokument. Där finns mycket matnyttig information och kommentarer som vi lagt till när vi kände att det behövdes. Vi har även angett vem som var ansvarig för respektive tryck, så att ni enkelt ska kunna höra av er till rätt person om ni har några frågor. Tveka aldrig att ringa och fråga oss! Vi bits bara ibland...
+
+
+
+==Arbetsmetod==
+
+
+Först och främst rekommenderar vi att ni upprättar ett trykk-dokument i stil med det som vi har bifogat som bilaga. Sedan fyller ni i det allt eftersom ni får nya uppgifter. Bestäm också ansvarig trykkare och absolut deadline direkt.
+
+Deadline är bra att bestämma på ett sådant vis att ni ändå har en vecka till godo efter att deadline passerats. Lite riktlinjer är att ett märke tar c:a 3 veckor att få i handen efter beställningen, så då lägger ni deadline 4 veckor innan ni behöver det. Vänta ALDRIG till sista minuten att göra saker. Gör dem direkt när ni får uppdraget.
+
+Alltså kolla upp hur lång tid det tar för företagen att trycka upp och leverera varan. Sätt en deadline för när trycket ska vara klart och beställt utefter det.
+
+Det är ni som bestämmer vad som ska finnas på trycket. Det finns oftast inga förbestämda regler på hur saker ska se ut och så vidare. Våga ta initiativ och testa olika idéer. Försök rita minst två helt olika motiv till varje tryck, och sedan kan man låta resten av festeriet kika på förslagen och uttala sin mening. Innan ni trycker bör ni lägga upp den slutgiltiga bilden för allas beskådan. Begär att alla läser eventuella texter och datum och kontrollerar så att de stämmer. När man sitter själv och jobbar mycket med en affisch till exempel är det lätt att man blir blind för annars ganska uppenbara fel.
+
+Ett tips kan vara att inte visa för många versioner för andra än trykkarna. Det brukar leda till att folk inte orkar bry sig längre och bara svarar ”ser bra ut”om de ens svarar. 
+
+
+
+==Att tänka på vid beställning==
+
+
+Vid beställningar och offert förfrågningar vill företagen ha så mycket information som möjligt. För att kunna få en offert är det viktigt att ange antalet som ska tryckas, antal färger samt storleksformat. Här kommer några fler riktlinjer för vad man bl.a. ska tänka på vid beställning:
+
+•	Antal färger på tryck (enfärg, affischer är oftast 4färg CMYK)
+
+•	Antal affischer/tröjor osv
+
+•	Ange Storlek (A4-format, 1.3x1.82m, small-large, osv)
+
+•	Ska det vara för utomhus/inomhus bruk (lakan/vepor)?
+
+•	storlek på trycket (kläder)
+
+•	leveranstid?
+
+•	fraktkostnad?
+
+•	Är priset angett med/utan moms?
+
+
+
+==Lämna in för tryck==
+
+
+Olika tryckerier har olika tillvägagångssätt, men lite grundläggande saker är bra att tänka på.
+
+**Upplösning**
+Allt som ska tryckas, papper eller tygtryck, ska ha en upplösning på 300 ppi/dpi (pixels/dots perinch). Lättast är också om trycket är så stort som det ska vara när man trycker det, alltså inga storleksskiftningar. Men det behövs inte om allt är vektoriserat. 
+
+Eftersom 300 dpi är ganska tungkört när man ska göra affischer och dylikt så är det smidigt att göra trycksaker i Illustrator istället för Photoshop. Vi testade att göra TK affischen i Photoshop och krävdes mycket datorkapacitet för att kunna använda filen. Senare användes illustrator för affischer och filerna blir då mycket mindre och kräver inte alls samma datorkraft. Arbetsgången blir mycket lättare med illustrator, i alla fall enligt vår uppfattning.
+
+**Format**
+Ta reda på vilka format de jobbar i. Främst är det högupplösta pdf-filer, ai eller eps, som vi distribuerat. Oftast skickade vi både med ai och pdf så fick de använda vad de ville. Fast även om man har rätt format på filerna så kan det vara fel årgång på programvaran. Som i fallet med Minorscreen som har version 10 av Adobepaketet, och man sparar i nyare version så kan det bli fel färger eller former kan göras om.
+
+**Text**
+Om man har text i illustrator så kan det vara bra att göra om dem till outlines. Görs genom att högerklicka på markerad text och välja create outlines. Dels så kan det bli fult när du konverterar till pdf och sen kan du råka ut för att tryckeriet inte har fonten. När du skapar outlines så göra du nämligen former av texten. Så efter att du gjort det så kan du inte gå in och ändra på meningar/ord. Till DömD användes en font som inte tryckerierna hade, därmed var det viktigt att göra om texten till vektor.
+
+**Färger**
+Ibland kan skärmen visa andra färger än på det tryck man får tillbaka, och det beror på att skärmar har olika inställningar på ljusstyrka och färgdjup. Om ni vill vara säkra på att ha rätt färgskala i illustrator eftersom det kan bli fel färg när tryckeriet tar ut färgerna ur pdf/ai-filerna, så ska ni använda en pantone-färgpalett. Finns bra instruktioner i illustrators help. 
+
+Tryckerier vill heller inte ha någon bakgrundsfärg när man skickar in tryck. Har man vita områden måste det ligga vitt där och inte bara vara den vita bakgrunden på ”duken”.
+
+
+
+==Lista på några företag vi använt==
+
+•	CYD-polen		(ej företag) sånghäften, prislistor, flyers m.m.
+
+•	BokAB		Affischer till TK, etiketter och biljetter
+
+•	Minorscreen		Tröjor – hoodie, temalösa dömd t-shirt
+
+•	Mera.se		T-shirts, jackor, märken
+
+•	Premiemax		märken (Se upp för kinesiska högtider!!!) 
+
+•	Banderoll.se		tryckta ”lakan”till dömd
+
+•	Larssons offsettryck	dömd tidning
+
+•	IC Design		flaggor (xx-groupie johan aronsson jobbar där)
+
+•	GetPrint		affischer
+
+•	Stämpelfabriken	duh?
+
+
+==Andra fester==
+De andra festerna och aktiviteterna vi anordnade kan ni se i googledocet, där finns det information om vem som gjorde vad, så det är bara att fråga om hjälp om ni behöver!
+
+
+
+==DömD==
+
+Vi kan inte trycka nog på hur viktigt det är att börja tidigt så vi skriver det igen. Börja tidigt.
+Men annars är det några saker som enligt tradition ska vara med och vissa saker vi lärde oss, vad som var bra och vad som kunde ha gjorts bättre.
+
+**Tidningen**
+Tidningen har varit 32 sidor i många år och förhoppningsvis kommer den vara lika fyllig nästkommande år. Lagstegen har varit på mittuppslaget väldigt länge och längst bak ska det finnas en gruppbild. På senare år har gruppbilden varit väldigt temabunden. I tidningen har det tidigare funnits en fuskannons som är knuten till temat. Puss och Krambiljetter är också återkommande grejer i DömD-tidningen. JÄTTEVIKTIGT ATT ALLA ANNONSÖRER KOMMER MED!
+
+Det kan vara väldigt svårt att komma på innehåll till tidningen själv. Därför lätt vi hela gruppen komma med idéer och även skriva texter. 
+
+Tidningen tar Väldigt lång tid, så börja med den i tid, räkna i alla fall med 100 h, troligtvis mer, småsaker tar lång tid att fixa.
+
+**Affisch**
+En affisch är lättast att sätta upp om den är på höjden istället för på bredden. Bubblorna som man kan boka är främst anpassade till höga affischer. Dock så kan man vika affischerna lite så kan man få plats med två stycken istället för en.
+
+Affischer finns till för att man ska synas. ”HEJ VI ANNORDNAR DÖMD! VÄRLDENS
+COOLASTE OCH ROLIGASTE FEST MED DART!” ska affischen skrika. Att ha en iögonfallande affisch som skapar ett ”buzz” är bra, så att folk bli sugna på att gå på festen. Men den ska även innehålla precis så mycket/lite information som möjligt. Man ska uppfatta vad som står om man cyklar förbi och man ska få tillräckligt med information om man stannar upp för att läsa. Det får inte bli för plottrig text. Det ska inte vara svårt att hitta när biljettsläpp var och andra saker.
+
+Festerna har hetat FörDömD och AfterDart några år men det har varit svårt att förstå att FörDömd är en kravall och AfterDart är ett eftersläpp. Så därför bör man nog skriva med det också. Kolla på vår affisch så förstår ni vad vi menar.
+
+**Lakan**
+Ska finnas många och fina. Gärna olika färger eller olika motiv på om ni målar själva. Dock, har man både olika färger och olika motiv så kan det bli svårt att fatta att det är samma fest. En röd tråd är viktig. 
+
+Här är snabbinformation jätteviktig. Här får ni tänka ut vad det är som ska uppfattas när man cyklar förbi och vad som ska vara med för dem som stannar upp för att läsa. Att bara skriva stort DÖMD och datum för när festen är, kan vara en miss eftersom inte alla vet vad DÖMD är.
+
+När vi hade våra lakan uppe så härjade vårvindarna hårt längs corson. Är man noggrann i fästning och material så är man glad när alla andras blåser ned och bara era stannar kvar. Fäster man bara lakanen i kanterna är risken stor att de blåser sönder. Vi vek tyget och lät linor gå genom viket för att ge styrka och avlastning genom alla sidorna. 
+
+När man sitter i Colosseum så är det trevligt att utsmycka platsen så mycket som möjligt. Lakan kan vara effektfullt och vi fick roliga kommentarer om våra. Relativt billig reklam, kostar bara tid, mycket tid. I år testade vi att spraya våra temalösa lakan. Det gick snabbare men blev inte lika snyggt som om man målat. 
+
+Våra temalakan valde vi att beställa tryckta vepor (som många företag kallar dem). De var gjorda i A4 förhållande mellan bredd och höjd. Det hade varit snyggare med mera avlång såsom lakanen blir om man målar själv. Dock så är vi sjukt nöjda med resultatet. Tänk på att använda bra rep så det inte slits loss.
+
+
+
+==Tips & Trikks==
+
+
+Nedan listas ett antal saker som är väldigt bra att tänka på. Keep this in mind!
+
+•	Behåll ert verk i vektorformat genom hela utvecklingsprocessen! Om en bild konverteras till ett ”raster”-format någonstans är det väldigt stor risk för pixliga slutresultat. Sånt är X-Group väldigt kinkiga med!
+
+•	Etiketter till ölflaskor och liknande trycks på speciella etikettpapper. Kontrollera med BokAB (om ni trycker där) att de har sådana papper hemma, och be dem samtidigt om en mall hur dokumentet ska se ut. Maskinen är väldigt noggrann att det är rätt millimeteravstånd i marginaler samt mellan etiketterna.
+
+•	När ni gör märken måste ni se till att vara ute i väldigt god tid. När företaget har fått beställningen brukar de trycka ett provexemplar. Det är oftast något fel som måste korrigeras (det är ofta företagets fel), vilket tar extra tid.
+
+•	Tänk på att maskinerna som trycker märken vill ha alla färger i PMS-färger. Tabeller över dessa färger hittas lätt på internet. När ni beställer märken ser ni till att alla färger som ska vara med på märket anges i PMS-nummer i beställningen.
+
+•	Dom har många underliga högtider i Kina! Se upp så att märkena inte fastnar i Kina under dessa.
+
+•	Förutom ett trykk-dokument (förslagsvis som Google-Doc) rekommenderas att ni trykkare skaffar en egen Google-Group där ni kan diskutera olika tryck och idéer med varandra innan de offentliggörs för resten av festeriet.
+
+•	När ni kör ”allnighters” rekommenderas kaffe och gifflar. Snusa inte Ettan, för läpparna blir alldeles torra av den. Pumpa Rammstein är ett hett tips också ;)
+
+•	Tänk på att på datorn visas alla färger i RGB medans när det trycks på papper så trycks det i CMYK. Gör affischer och tidningar i CMYK.
+
+•	Glöm inte att ange storlek på trycket alternativt skicka i naturlig storlek på tröjtrycken. En exempelbild i jpg med trycket på en tröja tror jag kan vara bra att skicka med.
+
+•	Det är oftast bäst att skapa sin huvudbild, exempelvis affisch, för att sedan utgå från den med de andra tryck sakerna. Det är viktigt att samma tema & känsla förmedlas i alla saker för ett arrangemang så att det känns som samma fest. Den röda tråden!
+
+•	Det behövs oftast en viss marginal vid kanterna vid tryckning på papper.
+
+•	På affischer är det viktigt att informationen i form av text kommer fram och är läsbart. Det är bra att ha i åtanke så att man inte lägger till detaljer över hela bilden. Det blir plottrigt och svårläst. Så lägg inte in texten för sent i utvecklingen av bilden då det oftast blir svårt att placera. 
+
+•	På prislistor till barer är det viktigast att folk kan läsa vad det står på skyltarna. Tänk på att de är fulla och står en bit ifrån när de ska läsa. 
+
+•	Försök att inte låsa för mycket på att förslag. Kom på andra idéer och rita enkla förslag. 
+
+•	Spara många versioner av samma fil. Även om ni inte kanske får nytta av det så är det kul att kolla tillbaka på hur bilden växte fram.
+
+•	A4 papper med färg kan enkelt skrivas ut i CYD-polen. Mindre arbeten tryckte vi upp i BokAB. De är dyra så endast om det inte ska tryckas så mycket.
+
+•	A4 papper utan färg (små flyers eller annat) kan/kunde skrivas ut gratis i SU-salarna
+
+•	Googla och kolla efter annonser i andras festeri-tidningar efter tryckföretag. Leta runt för att hitta bra priser. Det gör mycket i slutändan. Gäller särskilt under DömD.
+
+•	På familjemärket ska även”röda trosan”finnas med. 
+
+•	DöMD skrivs alltid med stora bokstäver!
+
+•	Tryck upp namnskyltar i bordsordning, det blir mycket lättare att lägga ut dem då.
+
+•	Glöm inte att skriva ut stora placeringsbilder så folk kan se vart de ska sitta.
+
+•	Arbeta utefter budgeten. Kolla noga upp vad det sammanlagda priset kommer att bli. T.ex. tillkommer kostnad för schabloner vid tryckning på tröjor. 
+
+•	Tänk på att det kommer alltid extraarbete som man inte tänker på. Det är ofta att det behövs ett sånghäfte eller en flayer som kommer behöva göras någon natt. Det är alltid någon som glömt något!
+
+Ha kul!
+
+
+
+Epilog
+
+Efter dessa få väl valda ord vänder vi på skutan och seglar bort mot horisonten och den nedgående solen.
+Men! Vi åker bara på semester över sommaren, och självklart finns vi kvar som x-trykkare och som stöd för er under 09/10! Vi vill självklart att det ska gå så bra för er som möjligt och har ni några funderingar ska ni inte tveka att ringa eller maila oss!
+
+
+Med dessa ord tackar vi för oss!
+
+Jonas Bergström
+j.bergstroem@gmail.com
+tel. 070-827 77 54
+
+Emil Fridell
+fridell.emil@gmail.com
+tel. 073-839 34 94
+
+Emil Olofsson
+emilo35@gmail.com
+tel. 076-141 14 69
+
+Vi hävdar att **det var bättre förr**.
+Kan ni motbevisa det?

@@ -1,0 +1,292 @@
+Jag måste börja detta testamente med att säga //Grattis!// Du har just fått den överlägset roligaste posten på universitetet, //webb// i datateknologsektionens festeri, //webb// i det eminenta **__D-GROUP!__** Whaddap!
+
+=====Allmän info=====
+
+Här är lite information angående hur saker och ting ska se ut för att stämma överens med Datateknologsektionens grafiska profil.
+
+Typsnittet på all skriven text ska vara Helvetica alternativt Trebuchet MS för allt på webben.
+
+**Färger**
+  * Brun: 117, 64, 34,    #754022
+  * Gul: 247, 230, 35,    #F7E623
+  * Cerise: 229, 57, 141  #E5398D
+  * Svart: 0, 0, 0        #000000
+  * Blå: 32, 64, 124      #20407C
+  * Grön: 112, 189, 68    #70BD44
+
+
+=====Servern=====
+
+Under mitt år har jag använt en server ordnad av Christian “BC” Svensson i utbyte mot DÖMD-biljetter. Han jobbar för Google i Irland. Detta är en Google Cloud server som kör Debian (Linux). BC har varit riktigt snäll och även fixat ett backup system åt oss.
+
+IP: 23.251.129.132 
+
+Backup: gsutil cp min_fil.tar gs:%%//%%d-group/ 
+
+==In- och utmatning till servern==
+
+  * För att föra över bilder från din dator till servern:
+
+   scp ~/bild webb@d-group.se:/~
+
+   T.ex: scp ~/Desktop/d-group_bild.jpg webb@d-group.se:/~  
+
+  * För att föra över kataloger från din dator till servern:
+
+   scp -r ~/katalog webb@d-group.se:/~
+
+==BC kontakt==
+
+Facebook (bästa alternativet): https://www.facebook.com/ChristianSvensson.bluecmd 
+
+Telefon (enbart i ABSOLUT kris): +353 84 377 8336
+
+För inloggning på servern krävs SSH.
+
+Uppdatering sker genom: sudo apt-get update && sudo apt-get upgrade
+
+Du måste se till att servern är fixad för hela året. Kontakta BC förslagsvis via facebook. 
+
+Skicka en vänförfrågan och presentera dig själv, fråga honom om han kan tänka sig att vara snäll nog att ha servern uppe även ert år i utbyte mot en all-inclusive DÖMD helg(han fick biljetter till båda festerna, sittningen och middlingsrundan av oss).
+
+Var inte rädd för att fråga honom om saker relaterat till servern. Han är väldigt schysst och oerhört duktig och erfaren.
+
+Om BC bestämt sig för att han inte orkar ha hand om servern längre är ett annat alternativ att du eller någon annan i D-group hostar en egen server. Annars är ett webbhotell något att fundera över. Den ekonomiska frågan att byta till ett webbhotell borde inte ska vara något problem då D-Group har en del pengar. Det ända som kostar pengar inom webb i övrigt är ju domännamnen.
+
+Jag rekommenderar dock att verkligen försöka få behålla BC's server. Den fungerar felfritt och hemsidorna är väldigt snabba. Även att kunna få hjälp av BC med servern har varit guld värt för mig.
+=====Innan/under sommaren=====
+
+Du ska nu ha fått tillgång till wikin(uppenbarligen), admin.d-group.se, vår d-group mail och dessutom kunna komma åt servern från din egen dator via ssh. 
+
+Skapa konton till alla i D-Group på följande platser:
+  * wiki.d-group.se
+  * admin.d-group.se
+  * mail.d-group.se
+
+När året är slut är det dags att "göra sig av" med oss i X-Group från hemsida och mail.
+
+Kom ihåg att varna minst en vecka innan du tar bort våra mailkonton. Vi vill antagligen spara saker som vi har i driven.
+
+Jag skickade ut ett varningsmail till hela X-Group i början av omtenta-p vid sommarstarten och tog bort dem några dagar efter att omtenta-p slutat.
+
+Du ska även ändra våra konton i wikin till patetkonton. Det är tradition att alla pateter ska kunna läsa vår dokumentation efter vårt år är slut. Du får absolut inte ändra detta innan vårt år är slut. Gör våra mötesprotokoll och allt annat såsom festdagbok och citat tillgängliga för alla. Gör samtidigt era delar privata.
+
+Logga även in på Loopia(vårt webbhotell, användarnamn och lösenord finns under "lösenord till sidor") och kolla upp när domännamnen går ut. Du vill självfallet inte att dessa går ut utan se till att betala i god tid. Ta upp det med kassören så du inte behöver betala med egna pengar.
+
+Se till att alla uppdaterar sin profil på d-group.se. Det kan krävas att du tjatar på dina groupies för att alla ska ta sig tid att göra det under sommaren.
+
+Klägg-samlingen: Rensa databasen på gamla festerier och skapa nya konton för klagg.d-group.se. Se till att de andra festerierna skickar in sin information, mer om detta under kläggrubriken. 
+
+Ändra allt på d-group.se så att det syns att det är ni som är det nya D-Group och lägg till den finaste bilden som finns på X-Group under Wall Of Fame.
+
+Ge alla groupisar admin på facebooksidan så ni kan göra inlägg allihopa. 
+
+Fixa en enkel DÖMD-sida. Kolla på min v1 och be trykk fixa en snygg bild.
+
+Passa även på att lära dig server-strukturen så att du lättare hittar när du behöver ändra saker. Sparar mycket tid senare.
+
+
+Detta är allt som du behöver göra under sommaren, i övrigt kan det vara skönt att repetera/lära sig saker inför året. 
+
+Jag var helt ny på MySQL och PHP så jag körde igenom http://www.codecademy.com/en/tracks/php och passade även på att testa och göra mycket saker i databaserna (väldigt liten chans att någon märker om du goofar med något under sommaren :D) för att lära mig det. Jag gjorde även HTML/CSS och Javascript kurserna på codecademy som repetition.
+
+Hur stor nytta just du som läser detta har av kurserna är svårt för mig att veta. Jag hade nytta av det som nybörjare men det är antagligen bara slöseri med din tid om du känner att du har stenkoll på det redan.
+
+
+=====Klägget=====
+
+Kläggsamlingen är en samling av kontaktinformation till alla festerier som D-Group brukar göra. Kläggsamlingen har förr i tiden huvudsakligen getts ut i en tryckt upplaga gjord för att passa i en filofax, men de senaste åren har vi endast haft den digitalt. 
+
+Mailet angående insamling av information bör helst skickas ut redan innan sommaren, allra senast i början av sommaren. Det brukar vara chefen som skickar ut mailet till de andra festerierna, men det skadar inte att påminna denna om det. Se till att ha en utsatt deadline, om du inte säger när informationen senast ska vara inlämnad kommer det ta låång tid. Många svar kommer ofta precis innan deadline, så man behöver inte bli helt förstörd om man inte fått mer än ett fåtal svar någon vecka innan. Ett påminnelsemail skadar dock inte. En sak vi missade var att man borde skicka med en mall som skall fyllas i så att du får sakerna i rätt ordning. Namn, telnr, mail, post. Det vore idealt om denna var klar innan nolle-p. 
+
+Du tömmer databasen på all gammal info (har du jättetur så kommer festerierna själva uppdatera sin info om de fortf. kan sitt lösenord men räkna inte med det, förra året gjorde bara FM det) och sedan lägger du in festerierna allt eftersom du får deras info. Om du väntar med att lägga in alla till samma tillfälle kommer du vilja döda dig själv, just sayin'.
+
+När du tycker att det är tillräckligt många som finns med i klägget för att folk ska ha nytta av den kan du börja skicka ut inloggningsuppgifter till alla festerier. Ge dem olika lösenord, festeristerna kommer busa med varandra annars.
+
+I klägget finns också en kalender där festerifesterna ska finnas. Jag mailade bokningsansvarige i FörenadeFesterier och fick hans kalender och bara la in den i admin.d-group.se kalendern. Denna kalendern ska hållas hemlig och får endast ses av festerister/FF. (Alla festeristfester är mycket svarta och man vill inte att allmänheten vet om dem).
+
+=====Tentakravallen=====
+sudo cp -r tentakravallen2014 -> be tryckarna om bilder -> be biljett om text -> du är bäst i världen gjorde snyggaste sidan omg webb so good gg wp no re.
+
+Om du behöver inspiration kan du kolla på min eller ännu äldre sidor(alla är likadana), du hittar dem här:
+
+2014: http://tentakravallen2014.d-group.se/
+
+2013: http://tentakravallen2013.d-group.se/
+
+2012: http://tentakravallen2012.d-group.se/
+
+2011: http://tentakravallen2011.d-group.se/
+
+Lite seriöst också. Detta är er första stora riktiga fest. Det är nu ni visar att ni faktiskt kan er grej och gör den bästa festen för terminen.
+
+Det är verkligen skitkul när ens eget arrangemang går bra och man känner att folk verkligen har kul, ge er själva chansen att få uppleva det.
+
+Bastu är skoj också!! WIIEEEE
+
+=====Åvveinvigningen=====
+Se till att Werk får hjälp under dagen med att få allt material till platsen i god tid. Vårt år var det snökaos just den dan vi hade invigningen. Styret tvingade oss att byta till vinterdäck när vi behövde köra grejer så det blev kaos.
+
+Se till att ha bra scheman för när ni ska köra grejer.
+
+Tjata på Läx så dem faktiskt fixar det dem ska, vårt år fixade dem inte en bil trots att de hade lovat att fixa en. - "Vi har inga vinterdäck"...
+
+Tips från mig är att på lekstationer även ha extra läsk eller vatten till de som inte vill ha fulvin, då kan de också delta och behöver inte stå och titta på från sidan. 
+
+Många bygglampor och förlängningskablar är bra också.
+
+=====Pryos ansökan=====
+
+/var/www/d-group.se/pryo.d-group.se/application/modules/page/
+
+Här är svaren! http://hemligpryo.d-group.se/index.php/page/view/pRoa9OaDI1vIecoaFr0abI7WRoAwRLW6
+
+Kom ihåg att byta lösenordet så att inte vi gamlingar kommer åt allt. Det är inte meningen.
+
+Skicka ut ett mail till resten av D-Group så alla kan se ansökningarna.
+
+För att tömma databasen på alla ansökningar skriver du såhär: TRUNCATE TABLE form_entries;
+
+Använd _inte_ drop.
+
+=====DÖMD-Sida=====
+Jag använde mig av WordPress och temat twentyeleven. 
+
+Hittade även några bra introduktionsfilmer till WordPress som väldigt enkelt förklarar hur man hittar de viktigaste sakerna i all kod(Vilket kan vara jobbigt om man är ny på WordPress).
+
+**Header/Footer innehåll**:
+
+https://www.youtube.com/watch?v=giawHh0RztI
+
+**Bakgrundsbild och headerbild**:
+
+https://www.youtube.com/watch?v=ErN7H9vO8SM
+
+**Childthemes**(Inte jätteviktigt för DÖMD-sidan eftersom den inte används så länge, men kan va kul att lära sig ändå):
+
+https://www.youtube.com/watch?v=A53huiLpB1s
+
+Du sparar mycket tid på att hitta ett passande tema till din eftertraktade design av sidan. Då behöver du inte koda speciellt mycket själv utan mest bara ändra redan befintlig kod.
+
+Efter du valt ett tema ändrar du bilder lägger till sidor osv. Jag arbetade mest i style(css) filen.
+
+Kom ihåg att be trykkarna om bilder i tid(Temalösa ofc). 
+
+Du kan kolla på min V2 eller äldre DÖMD-sidor, så får du lite inspiration över hur det kan se ut.
+
+Jag la upp sidan efter julledigheten, egentligen ska man lägga upp den precis 100 dagar innan DÖMD eftersom det är lite roligare.
+
+=====Admin.d-group.se===== 
+
+Background picture : 
+/var/www/d-group.se/admin.d-group.se/application/views/default/static/images
+
+Data för adminsidan : 
+/var/www/d-group.se/admin.d-group.se/application/libraries/Menu.php
+
+
+
+=====d-group.se=====
+
+~/../../var/www/d-group.se/d-group.se/application
+
+Här har vi vad man skulle kunna kalla kärnan i Webb-posten: D-Groups egen hemsida.
+
+Den ska följa sektionens grafiska profil, och bör också innehålla information om era arrangemang, er själva, kontakt, Wall of Fame osv.
+
+Det finns inga speciella krav på att du behöver ändra saker om du inte själv vill.
+
+Varje D-Group gör som de behagar vad gäller sidans utseende, fråga de andra om de tycker att det saknas något eller om något kan förbättras.
+
+I slutändan är det du som har ansvaret för sidan, så du har självklart mest att säga till om när det gäller design(tillsammans med trykk) och funktioner. 
+
+__Bra saker att ha koll på__:
+
+  *CSS-filer som påverkar hela sidans utseende:
+
+   /var/www/d-group.se/d-group.se/application/views/default/layout
+
+  *Menyn:
+
+   /var/www/d-group.se/d-group.se/application/libraries/Menu.php
+
+
+  *Bilderna som används på hemsidan:
+
+   /var/www/d-group.se/d-group.se/application/views/default/static/images
+
+=====Specialsomeone tycker och tänker=====
+
+~/d-group.se/application/modules/martin
+
+Det här är D-Groups skojsiga lilla hörna på hemsidan där man publicerar knasiga saker.
+
+Det går helt enkelt ut på att du väljer en person som får sin egen funderarhörna med valfritt namn.
+
+I den här hörnan ska alla kunna skriva utom just den personen som offentligt ser ut att vara ägare till hörnan.
+
+T.ex hade vi mitt år "Martin tycker & tänker" där alla utom just Martin kunde skriva saker.
+
+Tänk på att det inte får gå helt överstyr med vad ni skriver här, alla kan se vad som står, men det får gärna vara lite knasigt och konstigt.
+
+=====Bakfullekockens blogg=====
+Kul grej vi hittade på mitt år. 
+
+Matansvarig bloggar om alla trattiga saker han tillagar när han är (bak)full.
+
+
+=====MySQL=====
+
+För att logga in : mysql -u root -p052c8f85fd7d6cf316b5315235544747
+
+För att köra ett kommando avslutar man med semikolon.
+
+Kommandon :
+
+SHOW DATABASES - Visar alla databaser.
+
+USE d_group - Går in i d_group databasen. Man använder också USE för att byta databas.
+
+SHOW TABLES - Visar tabeller i d_group databasen.
+
+SHOW COLUMNS FROM users - Visar de olika egenskaperna för users.
+
+DESCRIBE users - Visar också egenskaperna för users.
+
+SELECT name FROM users WHERE festeri=2 - Visar d-groups användare.
+
+USE d_group -> SELECT * FROM festerier - Hela klägget.
+
+USE d_group -> SELECT name, level FROM users WHERE festeri=2 - Visar alla groupies och deras level.
+
+INSERT INTO "d_group1314" SELECT * FROM user WHERE id BETWEEN 238 and 251 : Slänger in de användare som har id 238-251 i databasen d_group1314.
+
+CREATE TABLE d_group1314 LIKE users : För att skapa en ny tabell med samma kolumner som users.
+
+Groupies små porträtt på hemsidan som sorteras i ordning beroende på deras id. Därför kan du vilja ändra deras id för att på så sätt ändra deras position på hemsidan. Det gör du på följande sätt:
+
+UPDATE users
+-> SET id=289
+-> WHERE name='Harald Stampe Pettersson';
+
+_VÄLDIGT_ viktigt att du har med ett 'WHERE' villkor då du annars kommer ändra id't på allt som finns i hela tablet users vilket skulle bli väldigt kaos.
+
+När man skapar en groupie så får den festeri=NULL och det ska ändras till festeri=2, 
+såhär: update users set festeri=2 where username='groupie-name';
+
+Admin usern ska ha level=10000 
+-update users set level=10000 where username=admin-name;
+
+Groupie ska ha level=121
+
+Groupie som ska kunna posta nyheter på hemsidan ska ha level=1000
+
+Groupie som ska kunne posta i nuvarande martin tycker & tänker ska minst ha level=900
+
+Vanligt festeri ska ha level=10
+
+
+  Viktor Wällstedt
+  Webb
+  D-Group 14/15
+  vikwa174@student.liu.se

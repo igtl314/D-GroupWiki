@@ -1,0 +1,238 @@
+=====Ca$hamente Far&Son D-Group 09/010/11 Arvid Söderström & Johan Niklasson=====
+
+==ChangeLog==
+==Oklart när av Johan niklasson & Arvid söderström - skrivit ner all skit==
+==2010-03-08 av Arvid Söderström - la till hg-personal avtal & fixade rubriker==
+==2010-03-22 av Johan Niklasson - spreadsheat del, angående ARRAYFORMULA.==
+==2010-04-20 av Johan Niklasson - Uppdatera delarna: Huvudkassör under fest (främst rörande kassahantering). Tillagt: Bil kassasammanställning==
+
+====Kontoinformation Swedbank:====
+http://www.swedbank.se/privat/kort-och-betalningar/betalningar/betalningar-till-utlandet/iban-och-bic-rakna-ut-iban/index.htm
+
+**IBAN**: SE4580000848069136032662
+
+**BIC/SWIFT**: SWEDSESS
+
+**BG**: 436-2497
+
+====EVENTS====
+
+===SVARTA===
+Det som främst är jobbigt udner svarta är för kassör och biljett att ta reda på och hålla koll på hur många biljetter man ska inköpa av svartagruppen. Tidigare har biljett skickat ut ett mail med information om vad man ska skriva till honom via anmälningsmail. Problemet är att det är ett helvete att synca anmälningen med betalning till BGkontot swedbank. Om folk anmält sig ser de det hela som chill, de kommer ju lätt få biljett - de har ju anmält sig! Kan ju vänta med att betala i alla framtid i princip..
+
+Jag föreslår att man på svarta istället ser betalningen som den bindande anmälningen, då slipper man teoretiskt sätt ta emot mail från 5k exare med! Det blir även lätt att hålla koll på hur många biljetter man ska beställa och man kan vara säker på att få in pengarna. Det man bör hålla koll på är hur långt meddelande folk kan skicka på BG (relativit långt endå men checka), sedan bör man vara klar med hur de ska skriva meddelandet. Kanske kan standardiserade förkortningar för marchpaket, grill etc användas tex 1 mar, 1 sill. Om inget annat så skulle ett system där man får skicka in ett extra mail med information om vad man vill ha till biljett kunna funka, betalningen är fortfarande den bindande anmälan. Se till att de skriver namn med.
+
+====Groupiepengar====
+
+===Pre-Group konto===
+Det är viktigt att du redan från början upprättar ett eget privat konto för hantering av pengar för groupies egna kostnader. Anledningen till detta är att alla pengar som går in och ut från ditt (eller soon to be ditt) D-Group konto bör bokföras. Även om du skulle komma bort från bokföringen av dessa summor så är det allmänt jobbigt när D-Group ligger ute med pengar till groupies och det är även krångligt i början av året då du inte har tillgång till D-Groupkontot.  Jag valde att tömma ett e-sparkonto på min bank för att senare använda den i D-Groups tjänst. Här var några av sakerna jag valde att sköta via detta konto: Åverålsinköp, skiftesinbetalningar, färgningsinköp till D-Groupåvve (ej textilfärg för namn), märkesinköp, en back lättöl, förseningsstreck., UK-biljetter. Se till att skaffa ett spreadsheat med vad folk betalar in och de kostnader som uppstår, få koll på vilka skulder/tillgångar de individuella groupiesen har.
+
+===Privata konton under året===
+
+====Biljetter====
+Det är lätt hänt att stora festskulder byggs upp under D-Groupåret. Just kravall, lag och festerifestbiljetter ansvarade biljettansvarig mitt år för att införskaffa. För att undvika att han eller D-Groupkontot skulle ligga ute med pengar startade vi ett buffertkonto där varje groupie fick sätta in pengar för att ha som buffert vid inköp av biljetter. Därmed var det bara att anmäla sig för till en fest så kunde biljett betala in för alla som var intresserade utan att behöva lägga ut egna pengar. Ibland var vissa minus med en hel del men detta uppvägdes av att andra just då låg plus med mer. Se bara till att det är lättövervakat och lättåtkomligt med hjälp av tex google docs,  en bra idé kan vara att kombinera med någon sorts festanmälan.
+
+===Förseningar===
+Det är mycket troligt att ni väljer att ha någon sorts förseningslista. Ulistan (vårt år) valde vi att ha kopplad mot pengar. Una sammanställdes i ett googlespreadsheat och sedan lät vi folk betala in till ett konto som ägaren av dokumentet hade. Vad ni ville använda Una till är er ensak. Vi valde att lägga Un på en gemensam fulvinskassa (att bygga en strip pole i mverskstaden var dock uppe som seriöst förslag). Därför valde vi att även ha en sammanställning av den fulvinsåtgång och fulvinsinköp som skedde. ÖloBar hade därmed rätt att editera. Vi förde även över de pengar och den balans folk hade från pryokontot eftersom detta konto inte längre fyllde någon funktion.
+
+===Pengar mot D-Groupkontot===
+
+För att spara dig otroligt mycket bokföring kan det vara en bra idé att _inte_ göra skillnad mellan groupies betalning och vanliga dödligas. Begär att lägga de egna eventen i Biljettdokumentet. Bokföringshelvete är att klara ut vilka som betalat sittningar, DLAN-strecklista etc ett halvår efter att eventet har gått av stapeln...
+
+====Google doc spreadsheat etc====
+=ARRAYFORMULA(COUNTIF(G3:G100, "ja")) <- kollar om det står “ja” i fälten och räknar ihop de fält där de står ja. Funkar bra i samband med biljettsystemet då du t.ex. vill ha reda på hur många öl som folk ska ha(den är inte case sensative).
+
+="besökare "&counta(A3:A100) <- Skriver ut antalet “Besökare [antalet fält med något i fältet]”
+
+=ARRAYFORMULA(SUM(Filter(E4:E201, L4:L201="ja"))) när det står ja i L4 tar den och hämtar datan i E4 och summerar. Bra om du vill ha en summa på tex antalet uthämtade biljetter. Sätt en "uthämtad?"-kolonn och skriv ja i när någon hämtat ut de 45 biljetter han/hon ska ha.
+
+====Huvudkassör på fest====
+När du ansvarar för den praktiskta delen av en kårallenfest rörande växel kassor etc
+
+===Förberedlse inför fester===
+Omfattar praktiska förberedelser inför festen- Denna del innefattar inte budgetarbete eller snack med ÖloBar, trykk etc.
+
+==Fyll på med växel i bankautomat””
+Vid större fester är det inte helt ovanligt att hundralapparna i kårallens bankomat tar slut. Ringa Östgöta Enskilda bank Linköping och be dem kolla om deras bankautomatföretag kan se till att fylla på innan. Kom ihåg att vara ute i god tid med detta! Ett förslag är även att de fyller på under DÖMD fredagen.
+
+===Växel===
+Se till att kolla igenom hur mycket växel du har inne i kassaskåpet, gör detta långt innan festen, det tar tid att fixa växel från banken. Banken vill veta om du ska komma in och växla minst en vecka i förväg. Det är bara att ringa och tala om vilka valörer du vill ha. Kolla över de priser du satt och vad de olika barerna behöver. Om du känner att du är lite kort på växel kolla över de alternativ du har först innan du går till banken, det kostar att skaffa växel, kanske en 200 kr max. Kan du växla tjugolappar mot femhundralappar med t.ex STABEN eller medarrangörer? Slipper du gå till banken och det blir enklare för STABEN om de vill banka.
+
+Förbered/räkna kassornas växel några dagar i förväg, lägg växeln i a4brev som finns i HiQ och förvara i kassaskåpet i mellantiden. Förbered lista över vad du tar ut i ett spreadsheat, skriv även på breven vad de innehåller. Hände mig och STABENkassören Mikaela inför en fest att datorn som vi skrivit växel på krashade, fick räkna om växeln för hand och kassorna kom ut sent. Detta leder till en ny punkt: Spara allt i cloudet, med andra ord förlita dig inte på någon enskild dator eller server, spara online på googledocs eller dylikt. Glöm dock inte bort vikten av papper, att ha saker uppskrivna på papper funkar faktiskt otroligt bra :)
+
+Växelexempel Nollephesten en bar:
+	8 hundraalappar <- minska stöldrisk i kassan genom att ha få.
+	30 femtiolappar <- femtiolappar är riktigt bra, får saker att smida på bra i kassan
+	50 tjugolappar <- tjugor är najs, funkar till allt nästan
+	75-100 tior <- dessa behövs särskillt i pantglasbarer, om du är lite kort på tjugolappar eller femtiolappar behöver du en 10kr buffert
+	40 - femkronor <- även om du försökt undvika i slutet av priset kan det vara skönt att bli av med sa jag, glöm inte att säga till de som jobbar isåfall.
+
+Desstå mer växel desstå mindre behöver du springa, men det gör festen otroligt tråkig för din del, dessutom är det bra att vara ute vid kassorna och plocka pengar, känns lite otympligt för personalen då kassan är fylld till bristningsgräns med 20-lappar etc.
+
+Extra växel, ha alltid en hög med olika valörer som kan knappas in i kassa vid behov.
+
+Fixa en låda för kassa/betalning av garderob, här vill du dela upp den i två fack: mynt och sedlar. Se till att lådan är ganska stor med, ett kassaskrin är sjukt obökigt om flera vill lämna pengar / fixa växel på samma gång. Se till att de i garderoben placerar lådan en bit bakom disken där de tar emot kläder. Kassaskrin kan funka om du har en stor jävel.
+
+OBS glöm inte att förbereda kassaskrin med växel om du har försäljning av överblivna biljetter i ALABingången.
+
+
+==Dagen D==
+•	Se till att DA har programmerat så att din kårallennyckel har tillgång till alurama, se även till att din eventuella medkassör har tillgång.
+
+•	Kom ihåg att fixa ett skrin + strecklista till Alab om du ska ha extra biljettförsäljning, räkna 	biljetterna, skriv upp på en lapp.
+
+•	Se till att fönstret till dörren i alurama är täckt med kartong/persien eller dylikt.
+
+•	Att ta med upp till alurama kontoret: laptop + laddare, gummisnoddar, A4papper och     	kuvert(optional), maskeringstejp, whiteboardpenna, blyerts/bläckpenna, en valörspreadsheat utskriven för växelin utlämningar och sist men inte minst chrille-p.
+
+•	Se till att DA tar ut extra kvittorullar till alla kassa-apparater, en per kassaapparat är typ     	lagom.
+
+•	Märk upp rutor på bordet i alurama med tejp eller dylikt, en ruta = området för en kassa,     	här kan du lägga pengar från kassan. Alltså den växel du tömmer under kvällen.
+
+Se till att kassorna är rätt programmerade för det ni säljer och att de stämmer med prislistorna ni satt upp.
+
+•	Döp kassa-apparaterna, "Kassa 6 Amigo" t.ex. Se till att alla namn på     	bordet, i dokumenten på A4kuverten, samt tejp på kassaapparaten samt lådorna i apparaten är konsekventa. Döp gasque-kassorna till vänster och höger också.
+
+•	Se till att du har laptop uppe på alurama med växelspreadsheat för varje kassaapparat,     	där kan du skriva in hur mycket du sätter in i kassaapparaten.
+
+•	Passa på att Växla in kassorna så fort du får chansen. Det är skönt att ha det gjort tidigt så du slipper stress då de ska bäras ut. Se till att spara de första växel in kvittona, detta är otroligt viktigt då vissa kassor ibland inte är nollställda.
+
+•	DA "köper" din växel. se därmed till att all den extraväxel du tar upp till alurama är räknad i förväg.   
+
+•	Vid jobbgenomgång nämn något om växel och att du är kassör. Säg något om att de inte ska spilla sprit och att de inte ska tappa upp 45 CL öl istället för 40, inte för att vi är snåla men D-Group är trots allt inte vinstdrivande.  Motivera med att du är jude (eller inte). Bra tillfälle att berätta om dina husdjur eller andra relevanta saker som jobbarna kanske borde veta, såsom att baransvarig inte får lämna kassan, inte ens för att gå och kolla på vaktgenomgången. Se även till att visa upp eventuella ölbiljetter samt rutiner kring dessa.
+
+•	Nu innan vaktgenomgång ska du dela ut kassorna, be gärna om hjälp att bära från någon    	annan kassör eller så. Se till att koppla in kassan, visa var av på knappen är på         	apparaten, om strömen går måste de veta hur man sätter på den igen. Nu är bra tillfälle     	att visa hur man gör med kvittorullar. Dessutom är det viktigt att påpeka för baransvariga     	och garderobsansvarig att ropa på växel i god tid. Du ska höra “vi behöver tior de är     	snart slut” inte “skynda dig hit med guldpengar din slöa jävel de var slut för en kvart sen”
+
+•	Vaktgenomgången, säg att du är kassör mot slutet och att du nås på "kassör, kassör", säg åt folk att "chilla, tryck, chilla tala" i radion om vakterna glömmer säga det, folk kommer dock alltid glömma detta.
+
+==LIVE!==
+I början kommer du inte ha något att göra, därför rekommenderar jag att du glider runt barerna snackar lite med baransvarig och folk. Bra tillfälle att springa med jobbgodis till poster eftersom du är mobil. Perfekt tillfälle att börja släpa ut jobbmat till folk särskilt poster där folk är ensamma, känner de sig inte bortglömda det första som händer. När försäljningen börjar komma igång på kvällen se till att springa runt mycket i barerna och kolla hur de olika barerna går, få en känsla för hur fort de olika valörerna fylls på/går åt i kassorna, gör det slappare i slutet av kvällen och du slipper att springa ut med växel när någon valör redan är slut.
+
+När du ska hämta pengar i kassor bör du fundera på vilken ficka du lägger pengarna i. En sak som jag tycker hjälper är att komma ihåg vilken ordning man hämtade pengarna i, sedan kommer man ihåg i vilken ordning man fyllde fickorna i. T.ex bröstficka höger först fick gasque höger först, Vänster bröstficka fick gasque vänster. Repetera för dig själv och kom ihåg att alltid lämna av pengar så fort som möjligt! Vill inte springa omkring med 50k i åvven jue, tråkigt om man blir rånad / glömmer bort vart man hämtade pengarna. Att glöma kanske inte blir lika stort problem om man tillämpar en strikt växel.
+
+Om du vill ha info om kassaapparater under festen kolla kassaapparater.
+
+==Växel in==
+Se till att växla in rätt i början av kvällen. Förbered ett kuvert med 10-vikta högar med sedlar och rör med mynt, skriv på kuveret hur mkt det innehåller. Räkna igenom igen lite fort innan du slänger in det i (rätt) kassa. Se till att ta bort 10vikningen på sedlar och öppna några rör med mynt också, se till att kassan går att stänga ordentligt, med andra ord lägg rören ordentligt i småfacken mot dig. Undvika att lägga myntrör i facken för 500hundralappar och kvitton de kan fastna och kassapersonal brukar missa dem!
+
+Använd Växel in om du t.ex behöver fler 10kronor till en kassaapparat, plocka då denna växel från din extra växel. Se till att skriva på papper / spreadsheat. Gå ner tryck på växel in, mata antalet av den valören du vill lägga in, tryck på forsätt. Nu får du fram en konstig skärm, stäng lådan och tryck på lämna(?) Ta växel-kvittot lägg i åvven. Se förihelvete till att din kassaapparat är nollställd angeånde växel enligt kassakvittot som du får ut nu. Annars snacka med DA.
+
+==Växel ut och pengahämtning under kravall==
+===Alternativ #1===
+Det riktiga sättet att göra växel ut är att du ska mata in vad du tar från apparaten när du plockar ut från den. Säg att du vill ta bort 100-lappar från en apparat med en 30 st. Du tar upp en lagom bunt pengar så att de forfarande har en fyra hundralappar till växel på femhundralappar. Sedan måste du stå helt öppet i baren och räkna igenom hundralapparna minst 2 ggr i en stökig och stressig miljö. Sedan ska du växla ut antalet på rätt valör på maskinen i fråga. Ta rätt kvitto från maskinen och spara det. När du kommer till kontoret måste du lägga pengarna i rutan eller ett kuvert i rätt ruta på bordet eller dylikt. Lägg kvittot tillsammans med pengarna. Detta suger främst pågrund av att det inte går fort, ökar risken för att du ska bli mugged men framförallt för att du kan räkna fel och hämta ut/skriva in för lite/mkt och sedan måste du tänka jättemycket i slutet av kvällen när du ska lämna in din exakta vinst. En fördel är att du kan lägga pengarna tillsammans med kvittot i din ficka så du vet från vilka kassa du hämtade din sedelbunt. Om du tillämpar detta rakt igenom kvällen kan du även kolla på ditt slutkvitto för växel ur för att se om det stämmer med det du har lagt på bordet.
+
+===Alternativ #2===
+Alternativt kan du plocka på dig pengar, springa upp till kontoret, räkna pengarna, lämna i ett kuvert eller dylikt, springa ner till kassan med någon lapp, skriva in på kassan vad du hämtat ut. Detta är lite av en kompromiss men jag kan inte rekommendera den, om någon nödgrej uppstår och tar längre tid måste du ha full koll på att du inte knappat i maskinen igen och inte glömma detta. Kräver stor noggrannhet med lappen.
+
+===Alternativ #3===
+Det som tidigare använts av i alla fall D-Group, är att använda sig av rutsystemet på bordet i alurama: Ta pengar från en kassa, lägg dem i en ficka i åvven, spring upp till kontoret lämna i den rutan som hör till kassan på bordet. Då har du alla pengar i kassan - fast sen så hade du inte det :p:P:P:PPp:pP:. Du kan se rutan i alurama som kassan fast bara inte riktigt på samma plats i rummet. I slutet av kvällen kan du släpa in kassan, räkna pengarna på bordet + kassan. Minst chans att man tänker fel under stress. Detta tycks dock inte vara super-lagligt, men som vi alla vet så är det få saker som sköts helt lagligt i festeri-världen.
+
+Jag föredrar sista eller första metoden, dessa är enklast vid slutet av kvällen.
+
+==Var konsekvent och tänk efter!==
+En uppmaning är att tänka till innan kvällen över hur du vill göra, försök vara konsekvent i metod av kassahämtning. Om du börjar på en metod men senare känner dig tvingad till att byta till en annan fundera innan kvällen på hur detta byte ska gå till, se till att det system du väljer inte helt begränsar dig utan möjliggör ett byte. Även om ditt system fallerar så måste du ha någon smidig väg ut.
+
+==Sammanställning av kassor==
+I slutet av kvällen ska du sammanställa kassorna. Börja med att räkna igenom allt du har i de olika kassorna och de olika rutorna. Skriv på en lapp för varje låda och ruta på bordet exakt vilka valörer du har, var noggran med dessa lappar och blanda inte ihop dem och märk dem väl. Nu gör du så att du skriver upp i ett pengaräknarspreadsheat vad du har i din kassa (låda+bord en rad var). Nu ska du försöka ta bort din totala växel in under kvällen (start växel + övrig insatt växel). Detta gör du genom att försöka ta bort alla låga valörer (främst mynt) genom att sätta en rad i din växelräknare där du kör minus antal på antalet 10 som du har kvar tex. När du har värdet av din exakta växel in och såå få mynt som möjligt plockar du bort denna minussumma från resten av pengarna. Detta gör enklast genom att kolla den totala sammanställningen av vad du har kvar i sammanställningsraden för räknaren och lägga det på bordet. Din växel kan du låtta ligga kvar i lådan, ställ sedan bort lådan och visa på något sätt att du är färdig med den.
+
+Nu vet du hur mkt pengar du har på bordet, jämnför detta med ordertotalen. Detta är ju rimligtvis din diff. Var noga att kolla att du faktiskt knappat in all den växel som du plockat in i apparaten.
+
+{{:kassakravallefter.png|}}
+
+==Att blanda ihop kassor==
+Ett sätt t.ex om du skulle blanda ihop två kassors pengar på bordet eller slarvat med utknappning av kassa ur om du använder alt1/alt2 är att bestämma dig för att en kassa ska få 0 diff. Detta är definitivt inte lagligt men kan vara det enda sättet att lösa problemet på. Se till att en kassa har allt det den ska ha (detta får du ett kvitto på när DA knappar ut kassan) Tänk sedan efter om diffen är logisk, kassan som inte har något för 30 har 30 diff? Kanske är det shots-kassan med bara priser för 30 som borde ha diffen, tänk även efter så att växel ut/in osv går ihop. Allt går att lösa i slutet av kvällen, kanske bara tar lite längre tid.
+
+==LinTek-avtal, biljettförsäljning, biljettsystem etc==
+
+===Kåravtal rörande biljetter===
+Följande regler gäller för LinTekavtal och kåravtalen gällande biljettförsäljning kårallen:
+Vid försäljning av biljetter har man med dator/kortläsare som man hämtar ut från DC/Lintek. Se till att ni har bokat denna dator och att nu har möjlighet att hämta upp den 5 minuter innan ni ska börja sälja. Datorn registrerar biljetter på ett event på Linteks databas/hemsida. Sedan får du kolla hur många du har lyckats registrera, kom ihåg att det inte nödvändigtvis behöver vara lika många som du streckat /reggat i D-groups biljettsystem. Skicka ett mail till exp.karallen@ks.liu.se och ange datum då försäljningen skedde, antal "intäktsbortfall p.g.a medlemsrabatter" samt ett bankgiro där pengarna ska sättas in. Kårservice kommer sedan göra utbetalningar en gång i månaden.
+
+====LinTekavtal====
+LinTek 10% av det totala antalet biljetter ska kunna utnyttja sig av denna rabbat. Rabbaten gäller det riktiga biljettsläppet (inte förköp).
+De som blir scannade och är LinTek medlemmar får betala biljettpris-30kr. Dessa registreras i biljettsystemet under t.ex TKLinTekmedlemmskap, vi kan senare fakuturera LinTek på 50kr/biljett.
+
+OBS: Inga biljetter behöver reserveras för LinTek medlemmar. När platserna som ingår i avtalet är slut kan vi inte registrera fler på detta event i biljettsystemet.
+Reservation: Fullt möjligt att detta är hur det är tänkt att det ska fungera men att det LinTekavtalet står något annat...
+
+===HG-personals avtal vid sittningar===
+Detta kan vara bra att veta men något som HG-personal ska ha koll på själva. Fast HG-personal, alltså bar-,köks-, sittningspersonal mm, har rabatt på sittningar arrangerade på HG. Detta fungerar i skrivande stund så att personen betalar ett reducerat biljettpris till arrangören(D-Group, och sedan anmäler arrangören (D-Group) till HG hur många HG-personal som går på sittningen och får där med tillbaka pengar av HG för dessa personer.
+
+===Kårernas avtal med Kårallen===
+10 kr rabbat för alla 3 kårer, dessa reggas i också i LinTeks biljettsystem men under ett annat event (typ TKkårmedlemskap). Så om man är Consensus, StuFF eller LinTekmedlem som kommit sent så att ens rabbatplats under tex TKLinTekmedlemmskap enligt LinTek avtalet är slut så kan man reggas här. Vi fakturererar Kårerna på 10kr för varje rabatt.
+Tror inte det finns någon övre gräns för antalet som kan få rabbat. Detta ska erbjudas på förköpen även.
+
+Källa: LinTek ordförande/drift/ wahtev Matilda or whatshername.
+
+===Slutsats avtal===
+Vi måste ha datorer med LIUkortsläsare på våra biljettsläpp på HU och Kårallen,
+
+Arbetsgången försäljning
+Arbetsgången blir sådan att man kollar om någon har kårmedlemskap via handdatorn, om de har LinTek registrerar man på kontot för TKLinTekmedlemmskap, man får man ta 80 kr betalt. När TKLinTekmedlemmskap är fullt eller om man är Consensusmedlem alternativt StuFFmedlem så reggas det på ett annat konto på deras sida (TKkårmedlemskap) då betalar man 90 kr. Icke kårmedlemmar betalar fullpris på 100 kr.
+
+Samtidigt som vi registrerar för bonusarna för kårmedlemskap måste vi registrerar i vårt egna biljettsystem. Fördel vore alltså om man kan köra en internetflik på datorn som man får från Kårallen/kårerna. Om man inte kan får man ha en dator brevid för denna registrering. Här måste vi ha tre olika prisklasser. LinTek biljett (begränsad till 10% av maxantalet biljetter om det går) som kostar 80 kr, Kårbiljett 90kr, ej begränsad. Sedan Vanlig biljett 100 kr. Självklart en maxbegränsning i biljettsystemet på antalet biljetter som är följande: (Max_antal_besökare - (alab +blab)).
+
+====Bokföring====
+Förklaring av interminskulder och fordringar med exempel på stämpel finnns i D-Group 10/11s bokföringspärm, tänkte låta den gå vidare sen. Kom ihåg att du inte ska göra en utstäld faktura till interimsfodring, den påverkar inte resultatet av ett år.
+
+Om du skulle råka på en kostnad från ett gammalt år, bokför på extraordinära kostnader eller dylikt.
+
+===Biljetter och kassasammanställning===
+
+==Biljettsystemet==
+Biljettsystemet har sina för och nackdelar. Det kan vara otroligt bra när du vill registrera information för tex sittningsförsäljning såsom allergier dryckespref osv. Nackdelen är att det inte är särskillt överskådligt när man väl fått in datan. Därför är det bättre att använda ett googledoc vid bearbetning av datan. Viktigt vid betalning via BG etc är att man reserverar platser för dessa personer så att man inte säljer för mkt sittningsplatser etc. En fördel med biljettsystemet är att du kan se när folk registrerade biljetter och vem. Använd dig av detta för att koppla försäljning av saker som inte är fysiska på något sätt till rätt kassa så du är säker på att få med intäkten till rätt konto i bokföringen sen.     	 
+
+==Kassor==
+Se till att ha två olika kassor där du har biljetter då du mottar betalning från två olika håll tex bg och resp. cash och måste dela ut biljetter till båda. Anledning är att det kan bli väldigt krångligt
+=kassa för vanliga försäljning=
+Denna kassa delar endast ut biljetter eller andra saker om den får betalt i cash. Därmed kommer den främst serva vanliga personer såsom lagmedlemmar, servitörer vanliga köpare etc. Denna kassa sammanställs dagligen då du kollar diffen mellan fysiska biljetter utgett samt biljettsystem och pengar som du fått in. Du kan inte hämta biljetter/märken från denna kassa till den andra kassan.  
+
+=kassa för BG./faktura/gratisbiljetter=    	 
+Från denna kassa lämnar du ut biljetter märken osv som folk har betalat för via BG eller kommer betala för via faktura, se även till att andra "konstiga" biljetter tas via denna kassa.   	Du kan inte hämta biljetter/märken från denna kassa till den andra kassan. Ibland räcker det om denna kassa är ett kuvert. Vid special grejer och personen som sköter kassan blir osäker kan det vara vettigt att lämna ett litet skrivet meddelande i denna kassa. Du kan inte hämta biljetter/märken från denna kassa till den andra kassan.  
+
+==mallar==
+Spreadsheats som du måste ha:
+•	Någon sorts valörräknare som du kan skriva in antalet av valörer på en row som sedan sammanställs totalt och per rad.
+•	Ett googlespreadsheat/flik för sammanställning av BGinbetalningar. Se till att alla groupies men framför allt biljett har koll på skiten.
+•	Ett googlespreadsheat/flik för sammanställning av saker som ska faktureras, vid vissa event måste detta kopplas mot biljetter/utlämningar. Se till att alla groupies men framför allt biljett har koll på skiten.
+•	Ett googlespreadsheat/flik för sammanställning av saker som ska ges ut gratis, vid vissa event måste detta kopplas mot biljetter/utlämningar. Se till att alla groupies men framför allt biljett har koll på skiten.
+•	En standard kassasammanställningsmall för intäkter på 1010.
+•	En standard kassasammanställningsmall för betalningar från 1010. En inköpt kvittensmall kan vara något att tänka på.
+•	En standard växelutlånings mall för tillfälliga utlångingar/låningar av växel.
+
+===Kvitton===
+Säg till att groupies alltid ska ta kvitton NO EXEPTIONS. Kom ihåg att man vid inlämning av pantkvitton ofta inte får något kvitto tillbaks utan att man måste fråga efter det. Vi handling till flera events på t.ex hemköp eller grossist. Be dem att handla dem separat så det blir olika kvitton. Detta sparar otroligt mycket tid åt dig eftersom du inte behöver kolla på de olika posterna i kvittot för att avgöra vad som ska till vad. (exempel Nollphesten + nollesittning + nollesittningens eftersits).
+
+===Pärmen===
+Att använda din bokföringspärm.
+Om du betalar en faktura: Skriv ut betalningsposten från internetbanken, nita fast fakturan på, gör hål i allt sätt in i pärmen.
+Om du har en kassa: Sammanställ kassan mot biljettsystem / strecklista. Skriv ut sammanställning/reslutat för dagen, sätt in i pärmen.
+Om du betalar något från kassaskåp: Ta kvitto med signatur på, sätt in i bokföringspärmen.
+Tveka inte att skriva ut fakturor så fort du ska ha in pengar, det kan ofta vara smart att göra det mot groupies asap om någon skuld uppstår.
+
+Om du följer denna dag-till-dag arbetsmetod kommer ditt liv bli ca 40 miljarder gånger enklare. JAG MENAR DET HÄR.
+
+===interimsfordringar===
+inom » redovisning räknas » förutbetalda kostnader och » upplupna intäkter som interimsfordringar. Endast de kostnader och intäkter som hör till » räkenskapsåret ska påverka resultatet. Övriga utbetalningar och inbetalningar hör till kommande räkenskapsår och måste därför periodiseras (se » periodisering) och bokas upp som » tillgångar respektive » skulder i » bokslutet. Detta gäller bland annat interimsfordringar.
+förutbetalda kostnader
+kostnader som företaget betalat eller fått faktura på under räkenskapsåret, men som helt eller delvis hör till kommande räkenskapsår.
+upplupen intäkt
+inom » redovisning är en upplupen intäkt en sådan intäkt som hör till bokslutsåret, men där företaget varken har skickat en faktura eller fått betalt för tjänsten eller varan före bokslutsdagen. En upplupen intäkt redovisas i balansräkningen som en » interimsfordran.
+
+=== Interimsskulder ===
+inom » redovisning räknas » upplupna kostnader och » förutbetalda intäkter som interimsskulder. Endast de kostnader och intäkter som hör till » räkenskapsåret ska påverka resultatet. Övriga utbetalningar och inbetalningar hör till kommande räkenskapsår och måste därför periodiseras (se » periodisering) och bokas upp som » tillgångar respektive » skulder i » bokslutet. Detta gäller bland annat interimsskulder.
+==== Upplupen kostnad ====
+inom » redovisning är en upplupen kostnad sådan kostnad som hör till bokslutsåret, men där företaget varken fått faktura eller betalat för tjänsten eller varan före bokslutsdagen. En upplupen kostnad redovisas som en » interimsskuld.
+==== Förutbetalda intäkter ====
+intäkter som företaget fått betalt för eller skickat faktura på under räkenskapsåret men som helt eller delvis hör till kommande räkenskapsår.
+
+== Bra idéer ==
+Se till om du kan få en dag då D-Group kan få trycka klämma på kårallens kassaapparater i lugn och ro. På jobbgenomgång är inte tillfället. Se till att folk lär sig att ta bort poster som de lagt in men inte fört till kassan än, det kommer minska stressen otroligt för baransvarig och dina groupies och du slipper förmodligen en del diff.
+
+== S-U-P-A ==
+Always Stay Classy -> “Det é ca$h”
+
+=== Svarta Ca$h ===
+(dra paralell till “snabba ca$h” med valfri tolkning) (detta är en shot men kan självklart drickas i valfritt men välfyllt glas)
+-Salmiakki
+-Apple sourz

@@ -1,0 +1,52 @@
+**Förord**
+
+Först och främst, grattis till posten Webb & Överdomaren™! Vad detta innebär för dig är att du kommer bära ansvar för att genomföra en massiv förflyttning av hemsidan, lite som när Noak räddade hela världen från undergång, där du är Noak och hemsidan är hela världen. Men frukta inte, ty jag skall vara din vägledare genom denna tuffa tid(gör det mig till Gud?). Lite otur är det att detta ska falla på just dig, då alla dina företrädare har ignorerat det lite som en ensam kaka i ett rum av försiktiga svenskar. Det ska inte gå osagt, däremot, att jag har jobbat med att underlätta det så mycket som möjligt för dig, då mycket har varit väldigt oklart. Som första steg ska jag berätta varför världen är på väg att gå under. Då jag inte vet säkert hur stora kunskaper du har inom servrar och databaser ska jag göra det så simpelt som möjligt.
+
+**Kain och Abel**
+
+Våra hemsidor är uppbyggt av två “system”. Det största och mest tydliga är det vi ser på d-group.se, nämligen enkel webbkodning uppbyggt av html, css och javascript. Simpelt! Här finns även lite saker som arbetar i bakgrunden, skapat i Python av den ökände Data-Pata. Ett exempel är den feed vi ser på välkomstsidan, där data från Instagram hämtas med hjälp av JSON. Detta är inget du behöver förstå, då det inte har med byggandet av arken att göra. Däremot finns det något ytterligare dolt bakom kulisserna. Klickar du in dig på “D-Group 19/20” ser du våra glada ansikten tillsammans med lite rolig info om oss. Detta är något vi kan ändra när vi vill på hemsidan admin.d-group.se. Var lagras denna info? Här följer historien om Kain och Abel.
+
+För många år sedan levde Kain och Abel i harmoni i den lilla staden Linkeboda. Bröderna var väldigt mån om varandra och kramades ibland. Trevligt. Det var därför väldigt synd när Kain meddelade att han skulle flytta till det främmande landet i väst. Konstigt tyckte Abel, men Kain lovade att skicka gåvor med jämna mellanrum, så Abel var nöjd. 
+
+
+Tiden gick och Abel hade vid det här laget blivit beroende av gåvorna ty de dolde hans saknad till Kain. Chock och panik utbröt i stackars Abel när ett brev en dag kom med meddelandet “Du får inga fler gåvor av mig haha ägd xD”. Abel blev sjuk och dog.
+
+Kain här är en D-Group-patet som för cirka 10 år sedan började jobba för Google och gav D-Group en gratis databas. Nu är han gammal och trött på att tillhandahålla detta så tyvärr måste vi hitta någon annan som kan lagra vår info. Här kommer Lysator in i bilden!
+
+Det Lysator sysslar med är just det som vi behöver, nämligen någonstans vi kan lagra all info samt enkelt komma åt det genom från alla hemsidor. Inloggningsuppgifter, rolig info om oss och annat är saker som ligger på databasen och nu behöver en flytt till Lysator. Lyckligtvis är alla som är med i Lysator supersnälla och hjälper till mer än gärna då dom kan så mycket. Alla fredagar klockan 3 har dom “Lysatorfika”, vilket blir ett ypperligt tillfälle för dig att be om hjälp med överföringen. 
+
+Jag förstår att detta känns kaos då du kanske inte kan så mycket om allt detta, och jag blev satt i precis samma sits då din farfar var lite virrig av sig. Jag fick därför krångla väldigt mycket med saker som var onödiga och det blev i allmänhet extremt mycket jobb för relativt lite. I slutet av testamentet ligger en lathund för saker som är viktiga att ha med sig. Även testamenten från tidigare år är superbra. 
+
+**Saker jag gjort som kanske inte är superintressanta för dig men som förhoppningsvis ger dig en liten inblick i vad som förväntas av mig även fast du kommer göra helt andra saker bland annat men också även inkluderande det jag gjort**
+
+När jag tog över skiten var det just det. Bajs höger och vänster. Nej egentligen inte så  mycket bajs men en sak som var specifikt bajs var att man fick ett Server Error 500 när man försökte nå hemsidan. Refreshade man sen fungerade det. Wow, tänkte jag, ett problem som jag kan lösa. Kul!
+
+Inte jättekul egentligen, efter några veckors slithårande fann jag lösningen. Python-filerna som hämtar information från Instagram och Facebook var utdaterade. Wowza. Instagram var easy fix, typ. Bara kanske en veckas research gav mig resultat. Facebook däremot är horor, krävde fysisk underskrift och massa E-Koli så jag “tog bort” den funktionen. Alltså fick den raden kod en permanent kommentar.
+
+Andra biggie var DÖMD-appen. Du kan läsa den historien i “Balles Journal”.
+
+Summa summarum; hemsidan fungerar normalt så du behöver inte tänka på att försöka laga den, förhoppningsvis. 
+
+
+
+
+
+
+
+
+
+**Sektion “teknikaliteter”**
+
+**Setup**
+
+Testamentet från 15/16 förklarar precis vad du behöver göra på ett mycket bra sätt, så läs sektionen “Överlämning” på det.
+
+**Skötsel av hemsidan**
+
+För att få ha en hemsida på http måste den ha ett giltigt certifikat. Därför använder du kommandot sudo certbot-auto för att sedan välja domäner du vill förnya. Väldigt enkelt faktiskt. Detta måste göras med jämna mellanrum, ungefär en gång i månaden. Det är möjligt att göra så att det sköts automatiskt så om du vill göra det kan du vända dig till tidigare testamenten. 
+
+**Bjuda in externa medlemmar till G-Suite-grupper**
+
+groups.google.com → sök efter grupp → hantera medlemmar → bjud in medlem
+
+Det hände att en groupie från många år sedan ville få sin vanliga mail tillagd så då var jag tvungen att göra på detta vis. Om du inte kan hitta några grupper så kan du skriva in gruppnamnet direkt i URLen.

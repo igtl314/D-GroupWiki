@@ -1,0 +1,180 @@
+====== Testamente Webb 12/13 =====
+Grattis! Du har alltså blivit webbansvarig i D-Group. Här nedan så har jag försökt beskriva posten på bästa sätt och eftersom den är skriven under ett antal tillfällen på året så kan det vara en del information som upprepas och strukturen kanske inte är den bästa.
+
+===== Inledning ====
+Men hur som helst, som Webb-ansvarig finns det en del saker man måste ha koll på men det är inget är helt statiskt då man kan göra saker på många olika sätt. Det är inte säkert att detta testamente är aktuellt om ett år så jag kommer gå igenom en hel del detaljer som gäller just nu men det kanske inte kommer gälla för dig. Då jag inte fick något testamente så kommer jag ta upp en del saker som hade underlättat om jag hade fått det i ett testamente men jag kommer även ta upp saker som är bra att ha samlat så man vet var det finns om man glömmer bort någon detalj. Då det är svårt att veta kunskapsnivån på dig som ska läsa detta så tar jag bara upp specifika saker som förhoppningsvis kommer förenkla en del saker för dig.
+
+Men här har jag tagit fram några saker som du borde ha koll på och gärna lära dig när du har tid för att få arbetet att gå så smidigt som möjligt.
+  * Kunna använda MySQL - Detta eftersom alla funktioner som man kan tänkas behöva inte finns i webbgränssnittet och man kan därför vara tvungen att ändra direkt i databasen.
+  * Kunna använda PHP - Detta är av den enkla anledningen att det mesta som finns skrivet på servern är i grunden PHP.
+  * HTML och css - Ja du är ju webbansvarig så detta måste du ju ha koll på.
+  * Ramverket CodeIgniter - Eftersom d-group.se är uppbyggd på detta ramverk så det vara bra att ha lite koll på.
+  * Bildmanipuleringsprogram typ GIMP, Photoshop - Kunna ändra bilder för att passa in på webbplatsen. Trykkarna brukar fixa bra bilder man kan ta.
+  * Använda kommandoraden i Linux - Mycket bra att kunna då vissa saker blir lättare att genomföra och det krävs för att göra en del saker.
+Nu är det ju inte så att jag var någon expert på allt det här när ja började. Då jag inte hade gjort något med webben på ett tag när ja började så var jag ganska ringrostig och CodeIgniter hade jag inte rört. Så när jag behövde göra något så tittade jag mycket på kod som redan var skriven och lärde mig av den och så har jag använt sidorna http://www.w3schools.com och http://ellislab.com/codeigniter/user-guide/ som mycket bra referensmaterial. Kommandoraden hade jag väldigt bra koll på så har ingen speciellt bra sida där mer än att söka på nätet och kolla i man-filerna. Gimp har jag inte använt till något jätteavancerat så har inte behövt lära mig så mycket nytt men även där är det mest bara att söka så borde du hitta det du behöver.
+
+Andra saker som kan underlätta att kunna:
+  * Javascript - Kan underlätta att använda om man vill göra häftiga detaljer.
+  * Adobe Illustrator - Om man vill ha lite mer möjligheter att ändra bilderna som trykkarna fixar.
+  * Vara estetisk - Detta kan vara en mycket bra egenskap att ha som jag saknade. Fick ta en hel del hjälp av trykkarna för att få designen på den nya hemsidan att bli bra då jag missade en hel del detaljer.
+
+==== Servern ===
+Den servern som användes under mitt år var en Debian-server som Christian Svensson(aka. BC)(tel: 070-853 76 89) ordnade mot att han fick biljetter till DÖMD-helgen. Då han borde gå ut snart så vet jag inte hur länge till han vill ha den dealen. Men eftersom det enklaste är att ha samma server så kan du ju höra med han. Andra alternativ är ju om någon i D-Group har en egen server man kan använda annars så är ju ett webbhotell något att fundera över. Tänk bara på att den ekonomiska fråga på att byta till ett webbhotell inte ska vara något problem då D-Group har mycket pengar och det ända man lägger pengar på som webb i övrigt är ju domännamnen så borde finnas en del utrymme för det.
+
+Mappar som kommer behöva användas:
+  * /etc/apache2/sites-available - Innehåller filer för sidor som finns.
+  * /etc/apache2/sites-enabled   - Innehåller mjuka länkar till filerna som finns i sites-avaliable för att göra så dessa visas i webbläsaren.
+  * /srv/data/www	  	 - Här finns alla kod för sidorna. Namnen på sidorna borde tala för sig själv. /var/www/ används i testamentet då det är en mjuk länk till samma ställe.
+  * /srv/data/backup/		 - Saker som ligger här under på BC:s server kommer inte försvinna i första taget.
+
+Kom ihåg att uppdatera servern: ''sudo apt-get update && sudo apt-get upgrade''
+
+==== Verktyg ===
+På servern:
+  * nano - enkel texteditor
+  * emacs - mer avancerad texteditor
+Användning av Windows:
+  * Putty - För ssh till servern.
+  * WinSCP - Kopiering av filer till servern.
+  * XAMPP - För att köra ev. lokal server.
+Användning av Linux:
+  * ssh - För ssh till servern.
+  * scp - Kopiering av filer till servern.
+  * Apache2 - För att köra ev. lokal server.
+Bildregigering:
+  * GIMP/Photoshop
+
+==== Förändringar från mitt år ====
+Då posterna kommer att förändas lite från mitt år så är det några ansvar som du förmodligen kommer behöva ta på dig. Sedan finns det även några förändringar på sidan som behövs.
+  * Du kommer förmodligen få ansvaret för att se till så apparna(iPhone/Android) vi skapade kommer användas under DÖMD vilket inte nödvändigtvis betyder att du ska behöva koda i dessa utan se till att det är någon som gör det. Dock så kanske det inte är jättelätt att hitta någon själv så se till att alla i D-Group letar om det behövs. De personerna som kodade apparna från början är Andy Truong(andy@appative.com) och Anders Söderström. Dealen de fick för det var ett lag och en helhelg var. Saker som kan förbättras i appen är:
+    * Man borde kunna lägga in en tid för lagen när de ska spela nästa match.
+  * Du kommer få skapa alla facebook-events vilket jag iofs har gjort ändå och D-Group-sidan på facebook. När jag hade skapa sidan D-Group 12/13 så fick jag höra lite att vi skulle ha skapat sidan D-Group och låtit den gå vidare från år till år istället. Men det kan du ju ta upp på ett möte och höra med resten av D-Group hur de vill göra.
+  * Du kommer att posta de flesta större inläggen på facebook och D-Group sidan men på facebook-sidan så borde alla kunna göra lite små poster och poster de tycker är viktiga. Om du sedan tycker att facebook nyheter är viktig så kan du ju lägga den på D-Group.se också.
+  * Jag har även fått en del gnäll på hur biljettsystemet fungerar och jag måste säga att det inte är det bästa jag har varit med om och jag har lagt till några enkla funktioner som inte fanns och det tog sin tid att sätta sig in i koden och fixa det. Så det du borde fundera på är om det går att bygga om nuvarande system eller om du ska börja bygga på ett nytt. Eftersom du förmodligen inte kommer bli klart med allt så är det väldigt viktigt att du skriver mycket dokumentatiton. Men ett förslag på hur du går tillväga är att du låter biljett-ansvarig(kan även vara bra om x-biljett hjälper till med det) ge dig [[https://en.wikipedia.org/wiki/User_story|User stories]] där han rangordnar vad som är viktigast. Efter det så bestämmer du vad du behöver göra.
+===== Vad som händer under året =====
+==== Innan sommaren ====
+Finns inte så mycket post-specifikt att göra under denna tid. Det är väl att ha ett möte med mig och det är väl då du får tillgång till detta.
+Se till att servern är fixad under hela året.
+
+==== Under sommaren ====
+Jag antar att ni har börjat dela dokument med varandra redan nu och använder ni google-drive så är ett tips att skapa en mapp att lägga allt i så behöver man bara dela den med alla så blir det inget strul med att inte alla fått filerna.
+
+Skapa konton till alla i D-Group på följande platser:
+  * wiki.d-group.se
+  * admin.d-group.se
+  * mail.d-group.se
+Se till att alla uppdaterar sin profil på d-group.se. Det krävdes lite för att få alla att göra det. Var inte förrens under nolle-p alla var med där åt oss har jag för mig.
+
+Klägg-samlingen:
+Rensa databasen på festerier och skapa nya konton för klagg.d-group.se. En förbättring jag har funderat på att implementera är att kunna importera alla kontaktuppgifter som en .csv fil men har inte blivit av att jag gjort det. 
+
+Fixa en enkel DÖMD-sida. Kolla på min v2 och hör med trykkarna om dom kan fixa nån najs bild och mycket mer än så behövs inte under sommaren.
+
+Ändra allt på d-group.se så att det syns att det är ni som är det nya D-Group och lägg till X-Group under Wall Of Fame.
+
+==== Nolle-p ====
+Under nolle-p så har du inte så mycket ansvar så se till att hjälpa de andra groupisarna med andra saker som behöver göras. Det finns alltid någonting att hjälpa till med under nolle-p.
+
+==== Hösten ====
+Vi anordnade tentakravallen tillsammans med Krogvet och Bi6 och då hamnade jag i en grupp med en till från respektive festeri. Det enda vi gjorde var att skapa ett facebook-evenemang och sedan så gjorde jag hemsidan med hjälp av föregående års vilket var skönt då man fick det mesta färdigt men ändå en snygg och enkel sida. 
+
+Andra saker som jag fick fixa var biljettsystemet då det inte gjorde som det skulle. Ett tips angående biljttsystemet är att inte lova att du kan fixa för mycket saker på kort tid där då det inte är det enklaste att sätta sig in i allt som händer. Sedan så fixade jag även en helt ny design till hemsidan med en del hjälp från trykkarna.
+
+Facebook evenemanget till Julfesten fixade jag också då det är lite oklart om det ligger under .nfo eller webb så tog jag väl på mig det för denna gång.
+
+Sedan ska du fixa formulär som ska vara klart typ slutet på november/början på december när ni ska ta in pryo. Det vi använde ligger under /var/www/pryo.d-group.se men ett alternativ är att använda google-forms om du inte förstår hur det fungerar. Mer info finns under rubriken pryo.d-group.se.
+
+I slutet på terminen så ska du även börja fundera på att uppdatera domd.nu till att vara en temalös sida med lite menyer och mer info. Jag fixade den så jag kunde släppa den när det var 100 dagar kvar till DÖMD.
+
+==== Våren ====
+Jag gjorde väldigt mycket av det postspecifka arbetet under mitt jullov så min arbetsbelastning skulle minska under våren. Men det största som ska fixas när den temalösa sidan är klar är väl att uppdatera den till en med tema under temasläppet.
+===== Sidor på servern =====
+==== d-group.se ====
+Kolla igenom kodstrukturen under /var/www/d-group.se/d-group.se/application så du lär dig var du kan hitta alla filer. Det kommer hjälpa att veta var du ska ändra när det behövs.
+
+Några bra ställen att ha koll på där är:
+  * ./libraries/Menu.php
+  * ./modules/*
+  * ./views/default/layout/*
+  * ./views/default/static/*
+
+Foton till galleriet och wall of fame hämtas från flickr-kontot. Galleriet tar bilder med taggen public och wall of fame tar bilder med taggen dgroup.
+
+Detta borde enligt mig ändras så att de ligger lokalt på servern och så man kan ladda upp från admin.d-group.se.
+
+Kalendern hämtas från http://forenadefesterier.se/festkalender/ .
+==== admin.d-group.se ====
+Kalendern under som ligger här är en sida som jag skapade mitt år för att ha festeristfester. Det går har gått till så att de som ville planera in en festeristfest mailade mig så la jag in den. Så du kan väl säga åt Chiefen att han/hon ska se till att andra festerier har koll på det. Även någon ansvarig inom FF fick kontroll över kalendern då dom har planer på att ta över den när dom har ett system som kan hantera det. Men se till att ni får igång detta för det var väldigt skönt att få in även detta i kalendern på ett smidigt sätt.
+
+==== pryo.d-group.se ====
+En viktig länk som det tog mycket lång tid innan jag hittade är den med svaren: http://pryo.d-group.se/index.php/page/view/4be1697971c6647856088eue456eou23234324 där man ändrar hashen i filen /var/www/d-group.se/pryo.d-group.se/application/modules/page/controllers/page.php
+Men utöver det så är väl det enda man verkligen behöver göra att göra sidan tillgänglig i /etc/apache2/sites-enabled vilket beskrivs under den rubriken.
+
+==== sok.d-group.se ====
+Fungerar i stort sett som pryo.d-group.se men frågorna är väl lite seriösare.
+
+===== Backup ====
+Jag har fixat ett enkelt(dock kanske ganska dåligt) script för att ta backup på servern. Har jag glömt dela det så säg till.
+
+Kom dock ihåg att ta backup när det lagts till saker som inte får försvinna då jag inte har fixat någon automatik på scriptet eftersom jag inte visste hur jag ville ha det.
+
+===== Tips ====
+==== bilder.d-group.se ===
+En sak som kan vara kul att ha är ett gemensamt ställe att spara alla bilder från året och jag la helt enkelt upp ett galleri där alla kunde ladda upp blider.
+
+Det jag använde kan laddas ner från: http://gallery.menalto.com/ .
+
+=====Detaljer/buggar som kan vara bra att veta: =====
+==== Irc servern:===
+Vid omstart så krävs manuell start av ircservern.(Detta pga. det stoppade uppstarten på något konstigt sätt när den låg automatisk.)
+Kommando:
+sudo /etc/init.d/ircd-irc2 start
+
+==== Users i databasen:===
+När man skapar en groupie så får den festeri=NULL och det ska ändras till festeri=2
+update users set festeri=2 where username="groupie-name";
+
+Admin usern ska ha level=10000
+update users set level=10000 where username="admin-name";
+
+Groupie ska ha level=121
+
+Groupie som ska kunna posta nyheter ska ha level=1000
+
+Groupie som ska kunne posta i nuvarande "schyters hörna" ska minst ha level=900
+
+Festeri som ska kunna använda biljett-systemet ska ha level=121
+
+Vanligt festeri ska ha level=10
+
+För att två eller fler festerier ska kunna ha samma biljettarrangemang skaderas festerinummer vara lika i users-tabellen.
+
+==== Exempel på att lägga till en ny url/webbsida.===
+För att lägga till sidan test.d-group.se. Gå till /etc/apache2/sites-avaliable. Skriv:
+
+''cp d-group.se test.d-group.se''
+
+Ändra sedan i test.d-group.se filen så den pekar på rätt ställe i mapp-strukturen och rätt url och spara. Skriv sedan:
+
+''sudo a2ensite test.d-group.se''
+
+och efter det så måste du reloda apache-configen med följande kommando:
+
+''sudo /etc/init.d/apache2 reload''
+
+För att sedan ta bort en url så gör man ungefär lika men skriver ''a2dissite'' istället för ''a2ensite''.
+
+====  Textkodningsbugg å, ä, ö:===
+Jag har inte lyckas förstå varför det egentligen blir fel då det bara blir det på vissa ställen. Men fula lösningen som jag har använt är att bara kopiera de kostiga kodningen där jag behöver den och fått det rätt...
+  
+==== Mupp url d-group.se ===
+Vid kopiering av hela mappen /var/www/d-group.se/d-group.se/ till en ny mapp som tex.  /var/www/d-group.se/development.d-group.se/ som jag gjorde så händer en sak som jag inte föstår anledningen till. Det är så att alla sidors länkar ändras. Till exempel så blir http://d-group.se/whois http://d-group.se/index.php/whois istället.
+Fick hjälp att hitta vad problemet var och av någon konstig anledning så hade jag missat att kopiera den dola filen .htaccess som ligger i /var/www/d-group.se/d-group.se/.htaccess men den kom med när jag testade senare så borde inte bli några problem med detta.
+
+===== Avslutning ====
+Jag hoppas detta testamente kommer vara till hjälp och försök uppdatera/komplettera med ett eget till kommande år. Är det några oklarheter är det bara att fråga mig och så hoppas jag du kommer få ett roligt år.
+
+  Robin Abrahamsson
+  Webb/U-lag
+  D-Group 12/13
+  robab960@student.liu.se

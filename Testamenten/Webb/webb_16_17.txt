@@ -1,0 +1,37 @@
+inloggsgrejer till wordpressen methinks
+
+domd.nu
+Groupie
+302uo*H53STdtV5z
+
+
+====== Under sommaren ======
+Låt chief/ca$h behålla sina pryokonton och bara byt namn på dem på admin.d-group.se så de hamnar längst upp i listan på d-group.se. Listan sorteras på datum de lades in och jag tänkte inte alls på det vilket ledde till att alla ligger huller om buller.
+
+
+====== cloud.google.com ======
+Jag hade en del datorstrul i början av mitt år, och datorn jag hade SSH-nycklar  på som var autentiserade mot D-Group-servern (se webb 15/16) pajade. Jag mailade då BC och bad honom om hjälp, varpå han gav mig tillgång till google-tjänsten som vår server använder. Om något skulle strula på liknande sätt som det gjorde för mig kan du kontakta mig!
+
+
+====== Klägget ======
+Tidigare år har det funnits en databas över nuvarande festerister som D-Group (och därmed webb i D-Group) har ansvarat för. Jag och min företrädare var överens om att det är dumt att ett festeri skulle sköta en sådan administrativ bit, och att det borde tillfalla FF, så jag kontaktade dem varpå de valde att inte komma med en egen lösning och ersatte det med ett excell-ark som delas i årets festeri-facebook-grupp. Så gott som ingen funktionalitet förlorad, och du slipper tjata på massa chefer om personuppgifter!
+
+
+====== Let's Encrypt======
+Min företrädare late in SSL-certifikat till alla våra hemsidor med hjälp av [[https://letsencrypt.org/|Let's Encrypt]], men cron-job:et som körde scripter för att automatiskt förnya certifikat kraschade med felet NoInstallationError() vid körning. Jag körde manuellt "sudo certbot renew" för att få allt att fungera ett tag till, men lade sedan in Let's Encrypt enligt https://www.digitalocean.com/community/tutorials/how-to-set-up-let-s-encrypt-certificates-for-multiple-apache-virtual-hosts-on-ubuntu-14-04 som förhoppningsvis automatiserar allt korrekt.
+
+
+====== Amy Wong ======
+Under tidigare år har det funnits en titel på mötena som hette "Amy Wong". Att "wonga" och bli nominerad innebar att man legat med någon ny person. Om man godtagit nomineringen fick man berätta med vem och hur det gått till, varpå det hela togs med i protokollet. Det här är något som varit väldigt hush-hush under väldigt lång tid, men någon mitt år berättade för utomstående som ledde till att LinTek fick höra om det. Det är självklart en ganska tveksam grej att göra då de man legat med blir lite uthängda, och LinTek tyckte just precis så, speciellt då man kunnat gå tillbaka i åren och titta på vem som hade legat med vem under många år. Det var kort och gott ej okej att protokollföra folks samlag. På grund av det kommer groupies inte längre åt äldre års protokoll, med undantaget dig som är webb. Det är viktigt att det här sköts snyggt i framtiden så att LinTek inte blir arga på oss. Förslagsvis så tar ni bort namn ifrån protokollen för att efterträdande år ska kunna få tillgång till dem.
+
+====== Småsaker ======
+Man kan be pil-Arne att blanda pilvikter åt en!
+
+Det är bra att komma ihåg att uppdatera Facebooks metataggar och resetta deras [[https://developers.facebook.com/tools/debug/sharing/?q=d-group.se|OG-api]] så att inte förra årets bilder och liknande visas när man delar saker på Facebook.
+
+root@d-group.se är ett viktigt alias till webb@d-group.se eftersom: 
+"Fel som uppstår vid cronjob som tillhör root-användaren skickas till root@d-group.se. Det går säkert att konfigurera om så det går till webb istället vilket är en snyggare lösning men att bara lägga till root i gruppen är lättare"
+
+I /etc/cron.d/php5 kördes innan jag dräpte skiten ett skript som städade php sessioner varje halvtimme sedan en uppdatering i juli. Den kraschade felfritt varje gång och skickade ett mail så jag bestämde mig för att avlida den. Om du mot all förmodan får för dig att det är en bra idè att bygga någonting med php sessions behöver du hantera dem manuellt eller fixa cronjobbet på något sätt.
+
+ --- //[[sebastian.callh@d-group.se|Sebastian Callh]] 2017/01/22 10:19//

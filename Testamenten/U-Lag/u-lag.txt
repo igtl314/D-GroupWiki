@@ -1,0 +1,49 @@
+====== Testamente Utlandslagsansvarig 12/13 =====
+Grattis till posten som u-lagsansvarig i D-Group.
+===== Inledning =====
+Har du fått denna post har du förmodligen även en till post utöver som den här eftersom man i stort sett inte gör nånting på denna posten under hösten.
+Det denna post går ut på är i stort sett bara att välja ut vilka u-lag som får komma, skicka väldigt många mail, fixa faddrar och se till så att någon fixar alla saker u-lagen ska göra.
+===== Info =====
+Den här [[https://www.dropbox.com/sh/yu3rywicqweb6ya/NnXSAbxCF3|mappen]] innehåller ett antal dokument som jag använde mig av när jag fixade u-lagen. Kan du inte komma åt det eller liknande så är det bara att kontakta mig.
+De viktigaste dokumenten är:
+  * faddrar.ods - lista på faddrarna och lite hur jag delat upp det
+  * lagval.ods - använde jag mig av när jag valde ut lagen, men även senare för att få en överblick på alla lag.
+  * Utlandslag DÖMD.odt - Dett är ett dokument med regler som DC på Kårallen ville att vi skickade ut till alla u-lag och faddrar innan dom kom hit.
+  * Sittningslista.ods - Lista på allas matpreferenser under sittningar och vilka som skulle gå på dessa.
+  * Schema u-lag.odt - Detta är ett schema över aktiviteter som u-lagen gör under DÖMD.
+En annan sak du behöver veta är att det finns några lag som ska komma även om de kanske inte måste få så många platser som de har fått förut, men dessa är:
+  * LoB Göteborg.
+  * DörrStopp Luleå - kan vara så att vissa bara vill gå på sittning/eftersläpp och då behöver du inte räkna in dem som u-lag men de ska få komma.
+  * E-sektionen Lund.
+  * F-sektionen Lund.
+  * F1-röj styret Lund.
+  * Team STHLM Stockholm
+
+Vi gav 120 platser till u-lagen mitt år och 30 till faddrarna för att kunna få in alla på [hg]-sittningen som kan ta max 150 st. Till slut så blev det ungefär 108+30. Detta för att jag var lite schysst mot några faddrar som ville vara tillsammans så att bjuda in 120 kan bli lite tight men det brukar kunna bli en del avhopp så det borde lösa sig ändå. (Kan även nämna att det var väldigt många som söp ut sig under tintorundan vilket gjorde att det var väldigt många tomma platser.)
+
+Ett problem jag fick med faddrarna var ett avhopp ganska nära inpå DÖMD vilket blev lite problematiskt men som tur var så lyckades jag få in en ersättare. Så en tanke jag hade för att dom inte ska hoppa av för tätt inpå kan ju vara att ha någon sort hållhake, dock jag har inte någon riktigt bra idé på hur man skulle göra det men det är något som är värt att fundera på.
+
+===== Fixa U-lag =====
+Det första man ska göra är såklart att fixa utlandslagen. Jag gjorde det så att jag la upp en intresseanmälan som ett publikt event på http://www.d-group.se/tickets och fixade en fin länk på hemsidan som gick dit vilket webb borde kunna hjälpa till med. Du kan se hur liknande anmälningar har sett ut under biljetter på admin.d-group.se. Efter det så gjorde jag lite poster om att det var öppet för anmälan från ungefär 15 januari till 15 februari. Jag skickade även ut inbjudan på mail till vissa lag då övriga i D-Group tyckte det behövdes men det går bra utan. Det är bra att vara ute i god tid med det här då det kan gå väldigt segt att få in svar från ulagen. Speciellt Lundalagen som har biljettsläpp brukar det ta tid. Men så fort du har valt ut lagen så skickar du mail om det till varje lag och sätter en deadline för namn, allergier, dryckespreferenser och liknande som kan behövas vilken förmodligen inte kommer hållas av alla.
+===== Fixa Faddrar =====
+Detta ska du börja med så fort som möjligt vilket då blir ungefär när du börjar fixa u-lag eftersom det inte är jätte högt tryck på dessa platser. Men ett förslag här är att inte skapa ett event som jag gjorde utan att du låter dom maila dig om dom är intresserade istället. Detta postade jag om första gången när jag började fixa u-lagen, en gång ungefär när jag stängde anmälan och sedan på DÖMD-eventet när vi hade fixat det. 
+===== Innan DÖMD =====
+Se till att fixa en sms-grupp med dig och alla faddrar där du kan nå ut med information snabbt.
+
+Se även till att faddrarna tar kontakt med laget och fixar sms-grupper för att de ska lära känna varandra lite innan och lösa praktiska frågor.
+
+Skicka även ut ett schema till faddrarna så att de har lite koll på vad som gäller.
+
+Se till att du har tagit in telefonummer och adresser till alla faddrar. Det kan även vara bra att ha telefonummer till alla deltagare i u-lagen. Dessa uppgifter kan det vara bra att dela med resten av D-Group så att alla har möjlighet att nå faddrar och liknande smidigt ifall det skulle inträffa något. Jag delade ej detta med de andra och vi kom fram till att det är viktigt att det sker.
+===== Under DÖMD =====
+Schemat som finns i dropboxmappen var det som i stora drag gällde under DÖMD 2013. Lagen som åkte till Linköping med tåg möttes upp av A-cats som hjälpte dom komma till skolan så ankomst-tid behövs från alla lagen. Lunchen och sittninen på torsdagen var det staben som ansvarade för tillsammans med matansvarig. Anlednigen till att faddrarna inte kunde gå på sittningen var att det var i Gasquen och det fick inte plats 140 personer där. Detta gav en del sura miner och vi gjorde därför så att faddrarna fick komma dit i mån av plats ändå vilket inte blev några problem. 
+
+Fredagens aktiviteter ansvarar A-cats för. Sittningen på fredagen är det sittningsansvarig som fixar. Dock så ska du och förslagsvis sittningsansvarig närvara under sittningen. Det ni gör då är att ni innan ska visitera alla u-lag så att de inte tar in alkohol, mat och "dumma saker.."(vakterna har koll på vad det är för saker som gäller. Under sittningen så ska ni bara vara där nyktra och se till så saker flyter på bra mm. Det finns ett avtal med [hg] angående åvvekvällen, köföreträde och liknande ska fungera som spons ska fixa.
+
+===== Avslutning ====
+Jag hoppas detta testamente kommer vara till hjälp och försök uppdatera/komplettera med ett eget till kommande år. Är det några oklarheter är det bara att fråga mig och så hoppas jag du kommer få ett roligt år.
+
+  Robin Abrahamsson
+  Webb/U-lag
+  D-Group 12/13
+  robab960@student.liu.se

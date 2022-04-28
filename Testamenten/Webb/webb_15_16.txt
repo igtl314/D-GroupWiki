@@ -1,0 +1,368 @@
+====== Webb 15/16 ======
+Stort grattis till Webb-posten! Som webbansvarig i D-Group har du ansvar för den mest avancerade och roligaste webbstrukturen bland LiU:s alla festerier och möjlighet att göra det mesta. Ta gärna vara på den möjligheten! Det här är ett rätt omfattande dokument som främst fokuserar på att beskriva vad som ändrats under mitt år jämfört med tidigare testamenten men också att förtydliga vissa delar. **Se därför till att läsa igenom tidigare testamenten innan du börjar med det här.** Lycka till!
+
+===== Överlämning =====
+Överlämningen av D-Group till Pre-Group sker först inofficiellt på skiftet där D-Group sedan kommer att benämnas X-Group och Pre-Group blir D-Group. Det egentliga skiftet sker när verksamhetsåret är slut och det nya börjar, vilket sker 1:a juli. På grund av detta ändras i ingenting av festeriets profil på webben förrän dess och endast ett fåtal saker läggs till. Efter ditt verksamhetsår börjar är det fritt fram och vad det här kapitlet handlar om är dessa två perioder.
+
+==== Pre-verksamhetsår ====
+Innan ditt verksamhetsår ska din pappa ge dig åtkomst till D-Groups alla system som webbansvarig hanterar och förklara det översiktligt. Detta inkluderar rotåtkomst på servern, inlogg till D-Groups hemsida, inlogg till wikin, samt inlogg till och adminåtkomst för företagskontot hos Google. Inlogg till övriga tjänster har du också tillgång till då dessa finns på wikin.
+
+=== admin.d-group.se ===
+På grund av en “feature” så syns alla användare på hemsidan som har en bild vald, håll dig alltså undan från knappen som man ändrar bild med. Utöver det kan du titta runt på sidan och kolla in alla funktioner. Du är fullt välkommen att trolla X-Group på egen risk.
+
+=== wiki.d-group.se ===
+Eftersom ni kommer ha möten minst en gång i veckan är det najs om hela D-Group kommer åt sina mötesprotokoll och även sina testamenten. Det är av tradition tyvärr mycket oklarheter kring vem som får se vad i D-Group mellan nuvarande verksamhetsår och nästa och på grund av detta rätt så hårda behörighetsrestriktioner på wikin. När du skapar konton åt Pre-Group är det därför viktigt att de tillhör rätt grupper. Notera att du som admin för wikin kan se allt.
+
+== Användarskapande av nykomlingar, för nykomlingar ==
+  - Nå administratörssidan genom att navigera till Adminpanelen och sedan “User Management”.
+  - Fyll i alla fält under “Add User” förutom Password, once again, och Groups.
+  - Eftersom alla användare kräver en mailadress behöver du inte fylla i något lösenord utan kryssar istället i rutan “Notify User”. På så sätt autogenereras ett lösenord och du slipper finurla.
+  - I fältet “Groups” fyller du i “user, pre”.
+  - Skapa användaren!
+
+Förklaringen till varför alla användare är med i gruppen “user” är på grund av att Dokuwiki som är det system vi använder för wikin också går att visa publika sidor med. Vår instans är konfigurerad att neka all åtkomst utan inlogg så råkar du precis som jag nästan ta bort den gruppen från en stackars patet blir hen utan åtkomst.
+
+== Allmänt om wikin ==
+Behörighetsnivåerna styrs från adminpanelen tillsammans med namnet på sidorna. Behörigheten är konfigurerad så att alla sidor med speciell åtkomst har ett prefix. Genom att döpa en sida till t.ex. “d-group1516:Filmjölk” så appliceras behörigheten som finns i adminpanelen automatiskt.
+
+=== admin.google.com ===
+Mailkonton är najs, därför kan det vara en grej att överväga att skapa vissa redan nu. Precis som överallt annars gäller det att inget ska bort utan saker ska bara läggas till. Att skapa ett konto är supersmidigt och jag rekommenderar att du autogenererar ett lösenord även här och sen väljer att skicka ett mail till groupiens vanliga e-mail när användaren skapas (finns en knapp för det). På så sätt får hen instruktioner för hur man gör och det blir mindre jobb för dig!
+
+Det finns i adminpanelen också inställningar för grupper som blir som ett sorts alias för bland annat posterna. Lägg till dina nyskapade användare i relevanta grupper.
+
+För att konfigurera bland annat mailskickande från grupper man är med i och signaturer har jag gjort dokument med steg-för-steg-instruktioner. Vill du ha dessa så är det bara att fråga mig så fixar jag det! I efterhand kommer jag inkludera instruktionerna här.
+
+=== Servern ===
+Ett par år tillbaka i tiden, närmre bestämt D-Group 09/010 (ja, det är rätt mängd siffror) var en person vid namn Christian “BC” Svensson med i D-Group. Nu för tiden jobbar han på Google i Schweiz och har på så sätt fixat så vi får en serverplats hos dem helt gratis*. Denna server täcks av Google Compute Engine och det finns en hel del dokumentation att nå här https://cloud.google.com/compute/docs/. Vi hade när jag började en instans av typ f1-micro och vi blev i samband med en flytt uppgraderade till g1-small som har mycket mer arbetsminne (1.7 GB) och processorkraft i nivå med en halv hårdvarutråd på Intels Core-arkitekturer.
+
+*För att få ha vår server utan att betala någon kostnad för den är vi lika snälla mot BC som han är mot oss, och därför ger vi honom en DÖMD-helg helt gratis som verkar varit uppskattat alla år han varit här. Kolla med kassören, biljettansvarig och sittning om det här känns rimligt för dem och kontakta sedan BC och fråga ifall han kan tänka sig att fortsätta med den här dealen. Jag råder att inte kontakta honom på Facebook utan i första hand maila till christian@cmd.nu och fråga.
+
+Vad som ingått i dealen tidigare utöver andra patetarrangemang är följande:
+  * Biljett till torsdagskravallen FörDÖMD
+  * Biljett till lördagsfesten AfterDart
+  * Biljetttill middlingsrundan
+  * Plats på lördagssittningen DÖMD-gasquen
+
+==== Verksamhetsårets början ====
+=== Google Drive ===
+Google har sedan jag började lagt till en sjukt najs funktion när det är dags att pensionera gamla användare. Förut gavs alternativet att ladda ner hela den personens enhet på Driven som en komprimerad fil. Jag gjorde inte det och det ledde till en del svårigheter att komma åt gamla dokument eftersom det byggde på att pateterna hade filerna undansparade lokalt för att vi ens skulle ha en chans att se dem. Eftersom det är bra i många lägen att kunna titta igenom dokument som tidigare år jobbat med har jag därför funderat större delen av mitt verksamhetsår på hur man ska lösa det och nu har tydligen lösningen introducerats av Google. När man nu tar bort en användare ges istället valet om att tilldela en ny användare (inom organisationen) som ägare till dessa filer. Kryssa även i valet att överföra filer som inte är delade. Mitt förslag är att man har en användare för alla gamla dokument (t.ex. Mr. Förr), som Webb 16/17 får ta tag i att skapa. Blir det för mycket utrymme som tas upp av en användare (> 15 GB) efter ett par år får man dela upp det i kanske en användare per år. I vår Drive finns det mycket data som tas upp av foton så det är nog en bra idé att ta bort irrelevanta bilder.
+
+=== Konton ===
+Innan dessa steg genomförs bör det föregående verksamhetsåret förvarnas i god tid. Med god tid så menar jag patettid och det rör sig om cirka två veckor officiellt och sen en eller två ytterligare veckor beroende på hur snabba folk är. Ifall någon vill ha kvar något av sina konton lite längre av diverse orsaker är det okej. I samma veva som pateterna förvarnas kan det vara bra att samtidigt fråga om deras personliga mailadresser så dessa kan läggas till i deras års mailgrupp (D-Group XX/YY). De stegen som sedan genomförs är följande:
+
+  * Ta bort alla gamla konton från Google och admin.d-group.se.
+  * Ändra rättigheterna på wiki:n så att tidigare verksamhetsårs mötesprotokoll och diverse andra sidor blir tillgängliga för pateter.
+  * Se till att pateter inte kan läsa era mötesprotokoll. Typiskt tråkigt om någon får reda på att årets DÖMD-tema inte är Frukt & Grönt.
+  * Ge gamla konton patet-rättigheter på wiki:n.
+  * Skapa konton på admin.d-group.se och tjata på dina med-groupies att de ska uppdatera sin profil och välja en bild. På hemsidan sorteras namnen på konto-id:t så se till att ge chiefen och kassören ett så id som är strikt mindre än alla andras så de hamnar längst upp (chief först sen kassör).
+
+=== Hemsidan ===
+Se till att hemsidan är uppdaterad för ert år. Byt ut gamla årtal som t.ex. D-Group XX/YY till rätt version. Byt ut gamla bilder till bilder på er. Se till att kalendern använder sig av FF:s festkalender (http://www.forenadefesterier.se/content/festkalender). Lägg till förra årets gruppbild till Wall of Fame, får du ingen högupplöst version av tidigare Webb eller någon annan groupie så får du fråga om det.
+
+===== Servern =====
+Som nämnt tidigare har D-Group en VPS från Google som verkar ligga belägen i USA för närvarande, troligen eftersom det är dyrare att ha den i Europa. Servern har följande specifikationer:
+  * 1 Virtuell CPU motsvarande 50% av en Intel Hyper-Thread
+  * 1.7 GB RAM
+  * 99 GB lagring
+  * I princip obegränsad lagring av backups i en storage bucket (kostar 1 cent/använd GB och BC/Google betalar)
+  * CDN bucket. Inte konfigurerad vid skrivande stund men hade kunnat kombineras med statiska filer vid deployment.
+
+Under mitt år genomförde jag en del ändringar av servern där jag fokuserade på att göra de vanliga uppgifterna så lätta som möjligt att utföra. De huvudområden som är ändrade rör deployment och underhåll. Även huvudsidan (d-group.se) uppdaterades från CodeIgniter till Django.
+
+==== Deployment ====
+Tidigare skedde uppdatering av de olika hemsidorna med hjälp av överföring via ssh eller direktredigering på servern. Eftersom det är smidigare att utveckla lokalt och sen kunna föra över precis rätt ändringar samtidigt som vissa resurser förbereds på servern direkt efteråt valde jag att implementera en så kallad git-deployment. På så sätt är all kod versionshanterad by default och det är möjligt att köra script efter all kod kopierats över. Tyvärr är guiden jag utgick ifrån borttagen från internet MEN den går att nå via Wayback Machine här https://web.archive.org/web/20141012075753/http://danbarber.me/using-git-for-deployment/ !
+
+Alla repon som finns på servern ligger unden /var/git/, t.ex. (/var/git/d-group.se.git). Dessa är initierade som bare-repon och innehåller inte koden i något läsbart format. Efter att kod pushats till dessa körs ./hooks/post-update som kör git pull från koden i /var/www och sedan kör diverse script för att uppdatera t.ex. statiska filer eller databasscheman. Ett post-update-script kan se ut så här:
+
+<code bash>
+#!/bin/sh
+
+echo
+echo "**** Pulling changes into Live [Hub's post-update hook]"
+echo
+
+cd /var/www/d-group.se/d-group.se || exit
+unset GIT_DIR
+git pull hub master
+make deploy
+
+exec git-update-server-info
+</code>
+
+Koden som finns i /var/www innehåller en Makefile som hanterar de steg som krävs för att sidan ska fungera efter koden uppdaterats. De projekt som bygger på Django använder sig av en virtualenv för att hålla beroenden separerade från resten av sidorna och detta är inkluderat i dess Makefile. Jag kommer förklara detta mer ingående senare i testamentet.
+
+=== Existerande repon ===
+För att klona ett repo kör du “git clone webb@d-group.se:/var/git/sidnamn.git”, nedan följer kloningskommandon för alla repon som finns i skrivande stund.
+
+<code bash>
+git clone webb@d-group.se:/var/git/api.domd.nu.git
+git clone webb@d-group.se:/var/git/app.domd.nu.git
+git clone webb@d-group.se:/var/git/devadmin.d-group.se.git
+git clone webb@d-group.se:/var/git/dev.domd.nu.git
+git clone webb@d-group.se:/var/git/development.d-group.se.git
+git clone webb@d-group.se:/var/git/d-group.se.git
+git clone webb@d-group.se:/var/git/d-lan.se.git
+git clone webb@d-group.se:/var/git/domd.nu.git
+git clone webb@d-group.se:/var/git/ladyochlufsen.nu.git
+git clone webb@d-group.se:/var/git/liloochstitch.info.git
+git clone webb@d-group.se:/var/git/panel.domd.nu.git
+git clone webb@d-group.se:/var/git/pryo.d-group.se.git
+git clone webb@d-group.se:/var/git/slideshow.domd.nu.git
+git clone webb@d-group.se:/var/git/sok.d-group.se.git
+git clone webb@d-group.se:/var/git/tagga.domd.nu.git
+git clone webb@d-group.se:/var/git/tentakravallen2015.git
+</code>
+
+=== Nya repon ===
+För att skapa ett nytt repo kan du återanvända mycket kod som redan finns och för de andra stegen följa guiden som jag använt mig av. Processen ser lite annorlunda ut beroende på om du vill göra om redan existerande kod på servern till ett repo eller skapa ett nytt repo för att kunna lägga upp kod du har på din egna dator.
+
+== Existerande kod på servern ==
+  - Initiera ett vanligt repo med “git init” där du har din kod på servern
+  - Committa alla filer med git add . && git commit -m “Initial commit”
+  - Skapa ett bare repository i /var/git/ genom att skapa mappen “[mittrepo].git” och sedan köra “git init --bare” inuti den
+  - Pusha koden från orginalrepot till det repo du precis skapat med “git push /var/git/[mittrepo].git master”
+  - Lägg till en remote i ditt orginalrepo genom att lägga till följande innehåll i .git/config: <code ini>
+[remote "hub"]
+    url = /var/git/[mittrepo].git
+    fetch = +refs/heads/*:refs/remotes/hub/*
+</code>
+  - Kopiera över hooks/post-update från ett redan existerande bare-repo till ditt eget och ändra sökvägen för “cd” till sökvägen för orginalrepot. Notera att olika sorters repon innehåller olika post-update-filer; webbsidor som bygger på Django innehåller t.ex. en rad för att exekvera ett deploy-script, därför kan det vara vettigt att kopiera filen från ett repo som innehåller samma typ av sida. Är du osäker kan du kolla innehållet i olika post-update-filer. Filen kommer ha rättigheter för att exekveras eftersom det kopierades, skapar du scriptet själv måste du lägga till det själv
+  - För att kunna ändra filer direkt på servern (även om det inte är rekommenderat så kan det vara användbart ibland) så behöver du lägga till en post-commit-hook i orginalrepot. Se till att göra den körbar mha “chmod +x .git/hooks/post-commit”. Dess innehåll ser ut så här: <code bash>
+#!/bin/sh
+
+echo
+echo "**** pushing changes to Hub [Live's post-commit hook]"
+echo
+
+git push hub
+</code>
+  - Nu ska du kunna klona koden till din egen dator genom att köra “git clone webb@d-group.se:/var/git/[mittrepo].git”
+
+== Kod i lokal repo ==
+  - Skapa en katalog på servern där du vill ha din kod. Se till att katalogen är har rättigheterna rwx för användaren webb
+  - Initiera ett git repository i katalogen med “git init”
+  - Skapa ett bare repository i /var/git/ genom att skapa mappen “[mittrepo].git” och sedan köra “git init --bare” inuti den
+  - Lägg till en remote i ditt orginalrepo genom att lägga till följande innehåll i .git/config: <code ini>
+[remote "hub"]
+    url = /var/git/[mittrepo].git
+    fetch = +refs/heads/*:refs/remotes/hub/*
+</code>
+  - Kopiera över hooks/post-update från ett redan existerande bare-repo till ditt eget och ändra sökvägen för “cd” till sökvägen för orginalrepot. Notera att olika sorters repon innehåller olika post-update-filer; webbsidor som bygger på Django innehåller t.ex. en rad för att exekvera ett deploy-script, därför kan det vara vettigt att kopiera filen från ett repo som innehåller samma typ av sida. Är du osäker kan du kolla innehållet i olika post-update-filer. Filen kommer ha rättigheter för att exekveras eftersom det kopierades, skapar du scriptet själv måste du lägga till det själv
+  - För att kunna ändra filer direkt på servern (även om det inte är rekommenderat så kan det vara användbart ibland) så behöver du lägga till en post-commit-hook i orginalrepot. Se till att göra den körbar mha “chmod +x .git/hooks/post-commit”. Dess innehåll ser ut så här: <code bash>
+#!/bin/sh
+
+echo
+echo "**** pushing changes to Hub [Live's post-commit hook]"
+echo
+
+git push hub
+</code>
+  - Lägg till en remote i ditt lokala repository med “git remote add origin webb@d-group.se:/var/git/[mittrepo].git”
+  - Pusha din kod med “git push -u origin master”
+
+=== Makefile ===
+För att köra de sista stegen när kod laddas upp på servern som att t.ex. generera statiska filer använder sig många av de webbsidor som finns på servern sig av en Makefile med olika steg som sköter det hela automatiskt. Steget körs från post-update i det repo som ligger i /var/git/ med “make deploy”. Makefilen för d-group.se ser ut så här:
+<code make>
+SHELL := /bin/bash
+VIRTUAL_ENV_PATH=.venv
+
+deploy:
+  @make virtualenv
+  @\
+  source "$(VIRTUAL_ENV_PATH)/bin/activate"; \
+  python3.4 ./prepare.py; \
+  python3.4 ./manage.py collectstatic --clear --noinput > /dev/null; \
+  touch dgroup/wsgi_production.py; \
+  echo Deployed successfully.;
+
+virtualenv:
+  virtualenv $(VIRTUAL_ENV_PATH)
+  @\
+  source "$(VIRTUAL_ENV_PATH)/bin/activate"; \
+  echo "export DJANGO_SETTINGS_MODULE=dgroup.settings_development" >> "$(VIRTUAL_ENV_PATH)/bin/activate"; \
+  pip install -r requirements.txt --upgrade; \
+  deactivate;
+</code>
+Den första raden anger i vilket skal som makefilen ska köras. Det här är viktigt eftersom vissa av de kommandon som körs inte fungerar med det skal som används by default.
+
+Efter det följer en konstant för att ange vilken katalog som kommer innehålla den virtuella python-miljö som sidan körs i. Den virtuella miljön bygger på ett standardiserat system som heter “virtualenv” och används för att separera beroenden från den globala python-installationen och låter oss installera dessa utan root-behörigheter. När apache sedan kör webbsidan genom mod_wsgi använder den sig av den virtuella miljön istället för den globala vilket medför många fördelar, t.ex. går det att ha olika versioner av beroenden för olika webbsidor. Det är alltså möjligt att köra en sida under Django 1.8 medan en annan kör under Django 1.9.
+
+Resterande delen av makefilen innehåller de kommandon man kan exekvera med “make [kommando]”:
+
+== deploy ==
+  - Se till att den virtuella miljön existerar och är uppdaterad genom att köra dess kommando (detaljer finns nedan)
+  - Aktivera den virtuella miljön. Kommandon som körs i den virtuella miljön behöver separeras med semikolon för att inte gå ur miljön (eftersom det här körs i en makefile) och nya rader behöver prefixas med backslash av samma anledning
+  - Kör ett script som ser till att cachade pythonfiler kan lagras på disk genom att skapa kataloger för __pycache__ och ge dem rätt rättigheter
+  - Kompilera statiska filer och lagra dem på det ställe som specificerats i inställningarna
+  - Ladda om mod_wsgi genom att toucha wsgi_production.py
+
+== virtualenv ==
+  - Skapa eller uppdatera den virtuella miljön, detta ersätter .venv/bin/activate
+  - Aktivera den virtuella miljön
+  - Sätt DJANGO_SETTINGS_MODULE i den virtuella miljön för att kunna köra manage.py
+  - Uppdatera alla beroenden som specificerats i requirements.txt
+  - Avaktivera den virtuella miljön. Det här steget tror jag faktiskt inte behövs
+
+Det går även att migrera databasen vid deploy för att slippa göra det manuellt (som nu behöver göras för d-group.se och admin.d-group.se). Eftersom databasen för dessa inte skapats av Django undviks eventuella problem och förlust av data genom att inte migrera denna automatiskt. Kolla i makefilen för panel.domd.nu för att se hur man migrerar databasen automatiskt.
+
+==== Automation ====
+=== Felmeddelanden ===
+Inte riktigt automation per definition men när det uppstår ett fel med någon av webbsidorna som bygger på Django så kommer ett mail som beskriver felet skickas till webb@d-group.se. Ibland kan det här generera en hel del spam men generellt har det visat sig vara väldigt användbart för felsökning eller att upptäcka problem som plötsligt uppstår. Vill du kolla felloggen manuellt kan du köra "sudo less /var/log/apache2/error.log". Notera att dessa loggar rensas och arkiveras relativt frekvent (kolla själv i /var/log/apache2/ för att se vad jag menar).
+
+När Facebook- och Instagramfeeden misslyckas med att uppdateras så skickas också felmeddelanden men dessa innehåller ingen information om felet. Oftast är det engångsföreteelser och mailen kan ignoreras men får du upprepade mail behöver du kolla loggen manuellt.
+
+=== Backups ===
+Eftersom servern inte har någon redundant lagring inbyggd behöver backups göras manuellt till den storage bucket vi har. Denna backup körs varje måndag morgon kl 06:00 och konfigurationen för tiden går att hitta genom att köra "sudo crontab -e". Själva skriptet finns i /usr/local/bin/backup.sh och gör en backup av följande saker:
+  * Alla databaser (/var/lib/mysql/)
+  * Alla hemsidor (/var/www/)
+  * Konfigurationen och alla sparade sidor på wikin (/var/protected_files/)
+  * Alla git-repon (/var/git/)
+
+Detta komprimeras sedan och laddas upp i vår storage bucket. Varje backup blir cirka 2 GB stor så det kan vara värt att kolla på en eventuell annan lösning som minimerar utrymmet som används.
+
+=== LetsEncrypt ===
+Alla certifikat för HTTPS på servern sköts av den relativt nya tjänsten LetsEncrypt (https://letsencrypt.org/). De två stora fördelarna med tjänsten är att det är gratis och väldigt enkelt att automatisera.
+
+För att lägga till nya sidor till certifikatet rekommenderar jag att du modifierar filen "/home/webb/update-https.sh" och lägger in ditt domän i listan (samt versionen med www om en sådan finns) och sen exekverar scriptet. Frågar programmet ifall du vill tvinga HTTPS så svarar du ja. Det här kommer även lägga till hemsidan i listan över domän att förnya certifikat för.
+
+Servern sköter automatisk förnyelse av certifikat genom att kolla ifall några av certifikaten håller på att gå ut varje morgon kl 06:00 och ifall en utgång börjar närma sig uppdateras certifikaten i fråga automatiskt. Skulle det här misslyckas tillräckligt länge så kommer LetsEncrypt skicka ett mail till webb@d-group.se där det framgår att något av dina certifikat håller på att gå ut och då bör du agera på egen hand. För att redigera detta kan du köra "sudo crontab -e" och hitta raden där kommandot "certbot renew" körs.
+
+=== Mjukvara ===
+Tidigare sköttes uppdateringar av serverns programvara genom att manuellt logga in ibland och köra "sudo apt-get update && sudo apt-get upgrade". Eftersom detta är lätt att glömma så har jag installerat ett system för att automatisera den här processen. Paketet som sköter detta heter "unattended-upgrades" och det går att hitta dokumentation genom att googla på det. Uppdateringar letas efter varje dag och efter varje uppdatering skickas det ett mail till webb@d-group.se med information angående vad som uppdaterats.
+
+För tillfället uppdateras i princip alla sorters uppdateringar vilket skulle kunna ställa till problem. Det hade kanske varit bäst att bara köra säkerhetsuppdateringar men eftersom det inte uppstått några problem än så länge har konfigurationen bibehållts. Konfigurationen för detta kan du hitta i "/etc/apt/apt.conf.d/50unattended-upgrades".
+
+==== Manuella uppgifter ====
+=== Wiki:n ===
+Ibland släpper DokuWiki uppdateringar till deras system vilket man som administratör över Wiki:n märker rätt snabbt på grund av den gula info-raden som dyker upp längst upp på alla Wiki-sidor. Strukturen för hur Wiki:n lagras på servern är lite luddig och jag är inte helt hundra på att jag förstått processen rätt. Jag försökte dokumentera de steg jag genomförde sist jag uppdaterade Wiki:n och resultatet finner du nedan. Koden är **INTE** tänkt att köras som en script utan istället att exekveras manuellt rad för rad så man inte skjuter sig själv i foten. Redigera gärna den här informationen om det är något som inte stämmer.
+
+<code bash>
+# Back up everything
+mkdir /home/webb/wiki_backups/DATUM
+mkdir /home/webb/wiki_backups/DATUM/www
+mkdir /home/webb/wiki_backups/DATUM/protected_files
+cp -r /var/www/d-group.se/wiki.d-group.se /home/webb/wiki_backups/DATUM/www
+cp -r /var/protected_files/wiki.d-group.se /home/webb/wiki_backups/DATUM/protected_files
+
+# Download and apply update
+
+# Run following commands as root. Consider using sudo only for the commands which require it instead.
+sudo su
+
+cd /var/www/d-group.se/wiki.d-group.se
+rm dokuwiki-stable.tgz
+wget http://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
+tar -xzvf dokuwiki-stable.tgz --strip-components=1
+
+# Remove unused files
+grep -Ev '^($|#)' data/deleted.files | xargs -n 1 rm -vrf
+
+# Ensure correct permissions
+chown -R www-data:www-data .
+
+# NOTE: This does not copy hidden files nor is it recursive and should be replaced with a better command.
+# DO NOT USE MV! This would overwrite all the files in the target location instead of only applying the update!
+cp conf/* /var/protected_files/wiki.d-group.se/conf/
+cp data/* /var/protected_files/wiki.d-group.se/data/
+
+# NOTE: I'm uncertain whether these folders have to remain in their current location or not. Please test
+# if they are needed or not by renaming them and modify this script and comment accordingly.
+rm -r conf
+rm -r data
+
+# Remove upgrade notice
+touch doku.php
+</code>
+
+===== Appen =====
+==== Android ====
+**Innan du publicerar din nya version** på Play Store bör du ha testat den nya versionen grundligt, och också att det går att uppdatera från vilken äldre version som helst utan att appen börjar crasha. Jag lyckades med det här konststycket en gång och det verkar inte ha orsakat några större problem, men det betyder inte att det kommer gå lika bra nästa gång. Psst! Enhetstester är coolt.
+
+== Kompilering för Play Store ==
+  - Se till att du uppdaterat versionen i app/build.gradle, annars måste du göra om allt det här. Öka versionCode med 1 och ändra till ett lämplig versionName beroende på hur stora ändringar det är.
+  - Testa så allt fungerar för systemspråk som både engelska och svenska
+  - Se till att appen är inställd att kommunicera med production servern (https://api.domd.nu)
+  - Välj "Build > Generate Signed APK..." från menyn i Android Studio
+  - Välj modulen "app" och klicka nästa
+  - Ersätt "Key store path" till sökvägen för "android.jks"
+  - Ersätt "Key alias" med "AndroidKey"
+  - Fyll i både lösenorden från lösenordssidan. Dessa är namngivna efter deras titel i dialogen.
+  - Se till att "Remember passwords" **INTE** är ikryssad och klicka nästa
+  - Välj en katalog där appen ska sparas
+  - Ange "release" som "Build Type"
+  - Klicka slutför
+  - Fungerar allt som det ska så byggs appen och hamnar där du specificerade. Uppstår det något fel rekommenderar jag att provbygga appen på vanligt vis och om felet inte ligger där att konsultera Google eller mig för problemet.
+
+== Uppladdning till Play Store ==
+  - Gå till https://play.google.com/apps/publish
+  - Logga in med kontot app@d-group.se
+  - Välj appen DÖMD från listan
+  - Välj "APK" från menyn för appen
+  - Klicka på "Ladda upp en APK-fil till produktionsversionen och ladda upp "app-release.apk" från katalogen du tidigare valde
+  - Skriv vad som är nytt eller ändrat och publicera sedan appen
+  - Vänta tills appen bearbetats. Detta tar ett par timmar så det går att få ut "sista minuten"-ändringar, till skillnad från App Store som kräver en review.
+
+== Förbättringsförslag ==
+Den ursprungliga versionen av DÖMD-appen för Android är utvecklad genom många designiterationer av både kodbas och grafisk layout. På grund av detta är det många delar som inte används över huvud taget eller saknar konsistens jämfört med resten av applikationen. Vissa delar har också på grund av tidspress resulterat i mycket fulkod och dåliga lösningar. Detta är något som tänkts till mer i iOS-versionen av appen även om den inte heller är perfekt. Något som borde ändras snarast är storleken på appen som ligger på runt 8.5 MB för tillfället. Det är många bibliotek som inte längre används, det är mycket kod som inte längre används, det borde även appliceras ProGuard på bygget för att snabba upp koden och minimera utrymmeskravet. En hel del resurser (främst bilder och layouter) används heller inte längre och skulle behöva tas bort. Vissa bilder skulle även behöva optimeras för olika skärmstorlekar. 
+
+Appen är innehållsklassificerad utefter lagnamnen i DÖMD, detta resulterar i en rating som 16+ eller 17+ vilket är rätt onajs för en dartapp. Det går säkert att besvara enkäten i Developer Console lite bättre och få ner den till 11+ som i App Store men det hade varit kul med en bättre lösning.
+
+Enhetstester! Gärna med så hög täckning som möjligt.
+
+== Katten Gustaf och Google Play Store ==
+Har man hängt på /r/androiddev på Reddit så har man ibland snubblat över poster där författaren klagar på att sin app försvunnit från Play Store eller fått en varning på grund av anledning x. Oftast beror detta på missförstånd mellan utvecklaren och Google angående vad som är upphovsrättsintrång (eng. copyright infringement) eller inte. Oftare än inte så händer det att Google är alldeles för välgarderade och anmäler minsta lilla överträdelse för att hålla mediaindustrin nöjda. Detta är precis vad som hände med DÖMD-appen någon vecka innan DÖMD och det berodde på att vi använde oss av illustrationer av katten Gustaf (D-Groups logga). För att undvika att få app-kontot permanent avstängt tog jag därför bort alla bilder där Gustaf var med från appen och även från de bilder som hämtas från api.domd.nu och laddade sen upp appen igen som därefter godkändes. Du kan läsa mer om konsekvenserna av en sån här avstängning på tidigare nämnd subreddit, vilket jag rekommenderar om du inte redan känner till dessa (hint: Google är inte nådiga).
+
+Huruvida vi egentligen får använda katten Gustaf är en definitionsfråga och i de svenska lagarna står det att man har rätt att använda parodier av illustrationer under fair use. Det är fullt möjligt att denna lag också existerar i det amerikanska regelverket och att det skulle gå att förhandla till sig användning av Gustaf i apparna om man anstränger sig tillräckligt mycket. Det största problemet här är att Google är förjävliga att hanskas med och det är svårt att få tag i en riktig person att föra en konversation med. Har du tid och ork att göra något åt saken så hade det varit najs men det är absolut inget som behöver göras, **så länge du inte använder Gustaf i Android-appen(!!)**.
+
+==== iOS ====
+Även om Apple är Apple och har sina sätt så briljerar de i sin användarvänlighet för utvecklare jämfört med Google och det är trots sina nackdelar en fröjd att utveckla för jämförelsevis. Tyvärr är Apple fortfarande väldigt måna om att behålla sitt ekosystemsfort och det krävs en Apple-dator för att utveckla appar för deras plattform och det är orimligt att kräva att Webb-posten i D-Group införskaffar sig en sådan endast för att hålla iOS-appen uppdaterad. Det finns sätt att komma runt den här begränsningen och jag är beredd att hjälpa till med att efterforska och arbeta fram en lösning för detta utan någon vidare ersättning för att hålla iOS-appen vid liv.
+
+== Att-tänka-på ==
+  * Till skillnad från Android så har App Store en årlig prenumerationskostnad på drygt 1000 kr som bör finnas med i din DÖMD-budget
+  * När man publicerar sin app på App Store så tar det en viss tid för den att bli godkänd. Jag la upp min version den 8:e april och den blev godkänd den 13:e. Jag hade helst publicerat den redan i mars men tidsuppskattning är svårt och det tar tid att lära sig ett helt nytt språk och ramverk
+  * Apple är hårda i deras review process INNAN appen godkänns istället för att komma och klaga efteråt. Var därför väldigt noga med att följa deras guidelines (https://developer.apple.com/app-store/review/guidelines/) och testa appen för alla skärmstorlekar och på riktiga enheter 
+  * Det är krångligt att få ett organisations-konto på App Store som möjliggör att "D-Group" står som utvecklare och det är därför jag står som utvecklare för tillfället. Jag rekommenderar att ni försöker genomföra en ändring av detta vilket troligtvis kommer innebära att du behöver prata med sektionens styrelse om att skaffa ett D-U-N-S nummer. Antagligen så kommer det inte gå att skaffa ett för D-Group utan snarare för Datateknologsektionen. För lite kuriosa så har Datateknologsektionen vid Chalmers ett D-U-N-S nummer. LINK-dagarna kommer troligtvis också behöva ett D-U-N-S nummer och då antagligen för D-sektionen, det kan vara värt att kolla upp vad som sker här.
+
+== Saknade features ==
+  * Det är inte möjligt att se den historiska poängställningen under en match genom att dra upp poängpanelen precis som på Android-versionen. Koden för att visa poängen finns till större del och det enda som saknas är ett bibliotek för att dra upp panelen.
+  * I samma veva som ovan nämnd feature hade det varit bra att indikera att panelen faktiskt går att dra upp.
+
+== Kompilering ==
+Eftersom det är lite oklart med hur utvecklingen av iOS-versionen kommer fortgå så lämnas den här sektionen tom så länge. Skulle det inte ha utvecklats en lösning för att bygga appar utan Mac OS och du har tillgång till det operativsystemet så kontakta gärna mig så hjälper jag dig.
+
+==== Cross platform ====
+Det är trist, tidskrävande och långt ifrån optimalt att utveckla två parallella versioner av DÖMD-appen, särskilt med tanke på att det är en ensam och (troligen) alkoholiserad stackars Webb-ansvarig som måste göra i princip allt jobb. Att festa så pass mycket som man gör när man är medlem i ett festeri påverkar förmågan att skriva vettig kod en hel del och det blir ännu svårare att hålla koll på två separata kodbaser. En hel del av koden är också i princip likadan, där spellogiken och API-anropen mot api.domd.nu skiljer sig otroligt lite.
+
+Varför är då inte appen skrivet i ett ramverk som tillåter en att utveckla till flera plattformar samtidigt? Den främsta orsaken ligger i att det fortfarande är ont om tillräckligt mogna lösningar för detta och att man ofta drabbas av att appen blir slö eller ser ut att vara utvecklad för den andra plattformen. Känner du att du har tid och lust får du hemskt gärna kolla närmre på olika lösningar och överväga ifall det är värt att porta koden till ett sådant ramverk. 
+
+De lösningar som jag skulle säga verkar attraktivast är React Native (https://facebook.github.io/react-native/) och Xamarin (https://www.xamarin.com/). Eftersom det ligger lite olika filosofier bakom ramverken så har de olika för- och nackdelar:
+
+React Native är främst skapat för att utnyttja den redan existerande kunskapen av Javascript och ramverket React för att bygga native applikationer för både Android och iOS. Eftersom denna abstraktion finns tillåts utvecklaren att använda samma kod för båda plattformarnas användargränssnitt samtidigt som möjligheten ges att istället skriva plattformsspecifika komponenter i dess ursprungliga programmeringsspråk. Tyvärr är inte allt guld och gröna skogar och det existerar ingen feature-parity mellan plattformarna vilket kan ställa till problem, samtidigt som ramverket är väldigt ungt (i skrivande stund version 0.28). I och med att ramverket inte passerat version 1.0 tycker jag inte det är moget nog att basera sin app på. Jag har inte heller hittat något konkret exempel på en faktiskt bra app som är skriven i React Native, att det är svårt att avgöra hur mycket som gjorts i React Native för många appar gör det svårare att bestämma ifall en app är bra på grund av ramverket eller för att mycket gjorts med "vanlig" kod. Du kan kolla här för lite exempel på appar som använder ramverket till viss grad: https://facebook.github.io/react-native/showcase.html. Ta även en titt på MTD:s app här https://play.google.com/store/apps/details?id=com.medieteknikdagarna, https://itunes.apple.com/us/app/medieteknikdagarna/id1089584130.
+
+Xamarin är istället byggt för att erbjuda en så lik upplevelse som möjligt jämfört med att utveckla en app på det vanliga sättet. Med hjälp av ramverket använder man samma klasser och kod som vanligt med undantaget att man skriver i C# istället för Objective-C, Swift eller Java. Personligen tror jag att det här är ramverket att satsa på ifall man vill kunna återanvända mycket kod men samtidigt skapa en app som ser bra ut och fungerar som den ska på alla plattformar. Både apparna för Tink och Slack är utvecklade med hjälp av Xamarin och det är svårt att gissa genom att bara kolla på apparna. Om du väljer att skriva om appen till Xamarin så kommer det bli mycket jobb men samtidigt så kan du återanvända mycket av koden som redan finns även om du måste skriva om den till C#. Nackdelen med Xamarin är att all UI-kod ändå kommer att behöva finnas i två uppsättningar, fast i samma språk.
+
+===== Bitbucket =====
+Trots att nästan all kod ligger hostad direkt på servern finns det ett par undantag, där koden istället är hostad på Bitbucket. De projekt som ligger på Bitbucket för tillfället är apparna för Android och iOS. Det ligger även ett gammalt projekt för Parse-integrationen som börjades skrivas innan Parse stängdes ner.
+
+==== Tillgång till Bitbucket ====
+Bitbucket-integrationen är uppbyggd som så att det skapats ett team för D-Group där alla som behöver möjlighet att visa eller redigera innehåll har sina personliga konton med i teamet. Teamet administreras med kontot webb@d-group.se vars inloggningsuppgifter finns under "Lösenord till sidor" och används endast för att bjuda in medlemmar till teamet och utföra administrativa uppgifter som inte går att göra från andra konton. Fördelarna blir bland annat att det är lättare att spåra ändringar till en specifik person och man slipper riskera att huvudkontot faller i fel händer.
+
+===== Lösenord =====
+De tjänster som jag konfigurerat har snäppet starkare lösenord än vissa av de tidigare tjänsterna, som t.ex. använder sig av lösenord som "taggadömd" eller dylikt. För att generera dessa lösenord har jag använt mig av en kod-snipp i Python som jag hittat här https://gist.github.com/kaytwo/62049fe07eb5b68fbd9e. I de fall det är möjligt har jag redirectat lösenordet direkt till en fil med `command > file`.
+
+<code bash>
+python -c "from random import choice; print ''.join([choice('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%^*(-_=+)') for i in range(32)])"
+</code>
+
+EDIT 2018-07-01:
+Det är ofta enklare att hantera lösenord som inte innehåller några specialtecken. Lösenorden blir enklare att copy/pasta, fungerar bra i terminalen, och är i princip lika säkra. Jag har lagt till den här ändringen i testamentet då jag själv kopierar ovanstående kommandot ibland och då tar bort specialtecknen. Vill du generera ett sådant lösenord istället kan du använda följande kodsnutt:
+
+<code bash>
+python -c "from random import choice; print ''.join([choice('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789') for i in range(32)])"
+</code>
+
+  Patrik Sletmo
+  Webb & ÖverDomaren™
+  D-Group 15/16
+  patrik.sletmo@gmail.com
+  +46707835761
